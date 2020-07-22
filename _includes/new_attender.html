@@ -1,0 +1,10 @@
+<section class="cards" id="cards">
+    <ul>
+	    {% if page.lang == "fr" %}{% assign cards = site.data.newcomer_cards.fr %}{% else %}{% assign cards = site.data.newcomer_cards.en %}{% endif %}
+            {% for each in cards %}
+      <li><a href="{{ each.link }}" title="{{ each.hovertitle }}">
+		{{ each.title }}&nbsp; {{ each.icon }}
+      </a></li>
+      {% endfor %}
+    </ul>
+  </section>
