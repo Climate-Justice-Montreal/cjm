@@ -3,16 +3,13 @@ title: <i class="fas fa-pencil-alt shake-tl color-1-text"></i> &nbsp;Nous joindr
 lang: fr
 trans: contact
 ---
-Pour nous joindre, vous pouvez <i class="fas fa-pencil-alt color-1-text"></i> remplir le formulaire ci-dessous ou bien appeler notre secrétaire David au <i class="fas fa-phone color-1-dark-text"></i> (514) 307-0820. On est aussi sur [Facebook](https://www.facebook.com/MontrealQuakers/) (majoritairement en anglais). Voici notre [politique de confidentialité](/confidentialité.html).
+{% include picture.html basename="donate-contact" type="jpg" class="img_center100" alt="Groupe à une manif" %}
 
-Entre autres, vous pouvez nous rendre visite le [dimanche](/coordonnées.html) à 11h au Greene Centre, [1090 ave. Greene, Westmount](/coordonnées.html), H3Z 1Z9.
+Pour recevoir des courriels occasionnels de Justice Climatique Montréal, [abonnez-vous ici](http://eepurl.com/cyizZD). Vous pouvez également obtenir des mises à jour de notre part via [notre page Facebook](https://www.facebook.com/ClimateJusticeMontreal){: rel="noopener" target="_blank"}. Ou suivez-nous sur [Twitter](https://twitter.com/CJ_Montreal){: rel="noopener" target="_blank"}.
 
-N'hésitez pas à nous poser des questions.
+Vous pouvez également vous inscrire pour [participer à nos réunions bi-hebdomadaires](http://eepurl.com/cyizZD){: rel="noopener" target="_blank"} ou pour aider lors de nos événements.
+
+Pour toute question ou pour vous impliquer, vous pouvez également [nous envoyer un courriel](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
+Merci !
 
 {% include contact.html %}
-
-<picture>
-  <source srcset="/assets/images/circle_group_cropped.webp" type="image/webp">
-  <source srcset="/assets/images/circle_group_cropped.jpeg" type="image/jpg">
-  <img src="/assets/images/circle_group_cropped.webp" class="img_center100" alt="Le groupe en cercle">
-</picture>

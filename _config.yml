@@ -1,13 +1,10 @@
-title: Montreal Quaker Meeting
-title-fr: Assemblée Quaker de Montréal
-keywords: quaker, montreal, quebec, friends, religious, society, religion, meditation 
-short_title: Montreal Quakers
-short_title-fr: Quakers de Montréal
+title: Climate Justice Montreal
+title-fr: Justice climatique Montréal
+keywords: climate, justice, indigenous, organize, resistance, solidarity, land defender
+short_title: Climate Justice
+short_title-fr: Justice climatique
 email: 
-address: 1090 Greene Ave., Westmount
-adresse: 1090 ave. Greene, Westmount
-phone: (514) 307-0820
-myurl: https://montreal.quaker.ca
+myurl: https://cjm.summerhays.net
 # myurl: localhost:4000
 
 # This sets the point at which the website will switch from "desktop view" to "mobile/tablet view"
@@ -23,14 +20,6 @@ webrick:
 media_pages:
   - page_trans: index
     media: youtube/yt_embed.html
-  - page_trans: directions
-    media: maps/street_directions.html
-  - page_trans: laurentians
-    media: maps/street_atelier.html
-  - page_trans: midweek
-    media: maps/street_ryan.html
-  - page_trans: quebec
-    media: maps/street_vieux_qc.html
   - page_trans: calendar
     media: calendar.html
     media2: calendar2.html
@@ -49,25 +38,17 @@ redalert_en-text: alert/en-covid.md
 redalert_fr-text: alert/fr-covid.md
 redalert_pages:
   - page_trans: index
-  - page_trans: directions
-  - page_trans: quebec
 
-greenalerts: some
+greenalerts: off
 greenalert_en-text: alert/en-midweek_over.md
 greenalert_fr-text: alert/fr-midweek_over.md
 greenalert_pages:
-  - page_trans: midweek
+  - page_trans: index
 
     #This section allows you to easily control which pages will have which bird and text animation
 bird_left: 
   - animation: land_left_flip
-    trans: midweek
-  - animation: land_left_flip
-    trans: directions
-  - animation: land_left_flip
-    trans: quebec
-  - animation: land_left_flip
-    trans: laurentians
+    trans: index
   - animation: roll_bird1
     trans: links_history
   - animation: swing-in1
@@ -75,15 +56,7 @@ bird_left:
 
 bird_right:
   - animation: land_right
-    trans: directions
-  - animation: land_right
-    trans: midweek
-  - animation: land_right
-    trans: quebec
-  - animation: land_right
-    trans: laurentians
-  - animation: land_right
-    trans: directions
+    trans: index
   - animation: roll_bird2
     trans: links_history
   - animation: swing-in1

@@ -1,39 +1,52 @@
 ---
-title: Votre première assemblée Quaker en six étapes
+title: Qui sommes-nous
+description: Mission et Principes
 lang: fr
 trans: about
 permalink: /à_propos
 ---
-1. [![](/assets/images/no-tie_color.png){: img_left height="35px" class="down_a_bit_more"} &nbsp;&nbsp;Soyez les bienvenu.e.s, habillez-vous à votre goût (une cravate ça va aussi)](#cravate){: id="linkoff"}
-  
-1. [<i class="fas fa-chair fa-fw fa-2x down_a_bit_more" style="color: #4d1a00;"></i> Prenez n'importe quel siège](#chaise){: id="linkoff"}
-  
-1. [<i class="fas fa-search fa-fw fa-2x color-1-text down_a_bit_more"></i> Dans le silence, écoutez](#regarde){: id="linkoff"}
-  
-1. [<i class="fas fa-hand-holding-heart fa-fw fa-2x down_a_bit_more" style="color: crimson"></i> Si vous vous y sentez incité intérieurement, parlez avec votre cœur. Sinon, écoutez](#coeur){: id="linkoff"}
+## MISSION
+Justice Climatique Montréal est un groupe qui œuvre pour la justice environnementale et climatique par l’éducation, la mobilisation et l’action collective en solidarité avec les communautés directement touchées.
 
-1. [<i class="far fa-pause-circle fa-fw fa-2x color-1-light-text down_a_bit_more"></i> Recueillez-vous un moment après chaque intervention; par souci de respect, nous évitons de répondre aux propos des autres](#attendre){: id="linkoff"}
-   
-1. [<i class="fas fa-mug-hot fa-fw fa-2x color-1-dark-text"></i> Prenez un thé avec nous après, si possible](#thé){: id="linkoff"}
-    
-************
+## ACTION
+Justice Climatique Montréal s’efforce d’agir de manière solidaire en appliquant des pratiques anti-oppression et de décolonisation.Le collectif prend des décisions selon un consensus non hiérarchisé. Nous nous sommes engagé.e.s à nous organiser de manière ouverte, inclusive, participative et transparente à Tiohtià:ke (Montréal, Québec).
 
-Les Amis (Quakers) prennent un moment de recul face aux distractions de la vie quotidienne en se regroupant le dimanche. Brièvement, notre but est de mettre de côté nos préoccupations pour un moment; nous encourageons la simplicité, la paix, l’intégrité, l’égalité des races et des orientations, l’entraide dans l’organisation communautaire. 
+Nous considérons que les questions relatives à la justice climatique sont intrinsèquement liées aux questions plus vastes du capitalisme et du colonialisme. Les thématiques choisies et la manière dont nous nous organisons, sont des tentatives de remédier à ces injustices et de les souligner. Nos initiatives visent à orienter et à amplifier les voix des personnes les plus touchées par l’oppression systémique en raison de leur race, ethnie, classe, sexe, âge, sexualité, capacités, maladie ou santé mentale.
 
-![](/assets/images/no-tie_color.png){: img_left height="20px" style="vertical-align:middle"}<span class="stanchor"><a name="cravate"> </a></span> &nbsp;Lors d'une assemblée Quaker aucune tenue vestimentaire particulière n'est prescrite.
+## ORGANISATION
+CJM est un collectif non hiérarchique qui fonctionne par consensus. Nous prenons des décisions lors de réunions bi-hebdomadaires et alternons les rôles et les responsabilités pour répartir le pouvoir entre les membres. En expérimentant de nouvelles campagnes et actions, et en poursuivant un processus d’auto-éducation et d’ateliers, nous visons à augmenter continuellement notre capacité collective de mobilisation. Les réunions sont ouvertes à tous ceux qui soutiennent la mission et les principes énoncés par l’organisation. Pour plus d’informations sur la façon de vous impliquer, contactez-nous.
 
-<i class="fas fa-chair" style="color: #4d1a00;"></i><span class="stanchor"><a name="chaise"> </a></span> &nbsp;Prenez n'importe quel siège; l’assemblée débute au moment où nous nous assoyons en silence jusqu’au moment où les responsables font un signe de conclusion, comme se donner la main.
+En plus de nos assemblées générales consacrées aux problèmes de justice climatique liés aux sables bitumineux au Canada, JCM compte trois groupes de travail: éducation, action directe et solidarité autochtone. Nous avons aussi un groupe des Jeunes.
 
-<i class="fas fa-search color-1-text"></i><span class="stanchor"><a name="regarde"> </a></span> &nbsp;Dans la tranquillité, nous écoutons. Certains écoutent Dieu, d'autres la nature ou leur conscience. Par cette pratique, nous apprenons à accueillir le meilleur de nous-mêmes.
+## HISTOIRE
+Justice Climatique Montréal s’est développé en 2009 après Power Shift Canada. Power Shift Canada était un rassemblement national de jeunes activistes canadiens œuvrant dans le domaine des changements climatiques à Ottawa, en Ontario. Après trois jours d’ateliers, de discussions et de manifestations à l’extérieur et à l’intérieur du Parlement, le Contingent de Montréal décidait qu’il était temps d’agir au Québec.
 
-<i class="fas fa-hand-holding-heart" style="color: crimson"></i><span class="stanchor"><a name="coeur"> </a></span> &nbsp;Il est possible que quelqu'un, inspiré par cette expérience, se mette à parler afin de partager cette inspiration. Ce court « ministère vocal » occasionnel et non planifié peut être une chanson, une prière ou un message verbal qui exprime l’espoir, l’action de grâce ou le règlement d’une préoccupation urgente.
+Après un Campement Climatique pour arrêter la construction d’une station de pompage à Dunham, au Québec, CJM est resté en sommeil jusqu’à ce que celui-ci renaisse de ses cendres tel un phénix. Depuis lors, JCM a organisé plusieurs forums et événements communautaires et a co-organisé des événements et plusieurs actions à Montréal et aux alentours.
 
-<i class="far fa-pause-circle color-1-light-text"></i><span class="stanchor"><a name="attendre"> </a></span> &nbsp;Ensuite par un silence respectueux chacun l’accueille, car il est inapproprié de faire un commentaire, une discussion ou un débat pendant le culte. Il y a une limite d’une fois par personne afin de permettre à chacun de participer. Nous trouvons que cela aide à ouvrir nos cœurs, à renforcer les liens, à trouver la paix intérieure, et à encourager la bienveillance en tout temps.
+## PRINCIPES
+### Approche solidaire
+Nous nous engageons à :
 
-<i class="fas fa-mug-hot color-1-dark-text"></i><span class="stanchor"><a name="thé"> </a></span> &nbsp;Après l’assemblée, il y a une période d'annonces suivie de rafraîchissements, parfois avec un sujet de discussion. Si vous le pouvez, prenez un thé avec nous afin de nous permettre de mieux se connaître et, si vous avez des questions, n'hésitez pas à les poser.
+* établir des relations avec les communautés directement touchées par les problèmes que nous rencontrons;
+* faire preuve de transparence concernant nos objectifs, nos intérêts et notre processus de prise de décision au sein de ces relations;
+* suivre les directives des communautés touchées et partager le fardeau de leur lutte par le biais d’un travail de soutien qui amplifie leur message et les renforce;
+* considérer et travailler pour le bien-être des communautés touchées en général;
+* être transparent au sujet des critères que nous utilisons pour déterminer avec qui nous travaillons dans une communauté donnée et assumer la responsabilité des effets de nos interventions;
+### Anti-oppression et décolonisation
+Nous nous engageons à :
 
-<i class="fas fa-book-reader color-1-text"></i> &nbsp;Lire nos brochures ou emprunter un livre si vous voulez [à propos](/intro-fr.html) des Quakers ou de notre [histoire](/liens_histoire.html).
+* comprendre l’oppression systémique en fonction de la couleur de la peau, de l’appartenance ethnique, de la classe sociale, du sexe, de l’âge, de la sexualité, des capacités, de la maladie et de la santé mentale;
+* comprendre notre propre rôle dans la normalisation de cette oppression au jour le jour et prendre les mesures appropriées pour créer des relations équitables;
+* comprendre notre propre histoire et la manière dont nous tirons profit du vol de terres, hier et encore aujourd’hui;
+* faire face au vol de terres et à la dévalorisation systémique de certains groupes d’êtres humains qui permet ce vol;
+* créer des espaces inclusifs en soutenant activement et en encourageant une participation égale aux réunions, aux rôles, aux tâches, etc.
+* procéder activement au partage des connaissances et des compétences pour faciliter le partage des rôles;
+* remarquer qui est exclu du groupe, chercher à comprendre pourquoi et prendre les mesures appropriées.
+### Consensus
+Un engagement à :
 
-Nous vous souhaitons la bienvenue!
-
-![](/assets/images/benches.jpg){:class="img_center"}
+* s’assurer qu’une décision reflète les commentaires de toutes les personnes présentes;
+* un esprit d’ouverture, de collaboration et de compromis;
+* aborder les relations de pouvoir au sein du groupe, en vue de les équilibrer;
+* exploiter la créativité et l’expérience vécue de tous les participants;
+* décentraliser et redistribuer les rôles de direction à tous les membres du groupe.

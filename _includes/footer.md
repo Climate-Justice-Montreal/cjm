@@ -2,10 +2,6 @@
 
 ## {{ site.title }}
 
-Sundays, 11 AM, Greene Centre<br>
-
-[{{ site.address }}](/directions.html)
-
 {% for each in site.data.navigation.footer-en %}[{{ each.title }}]({{ each.link }}){% unless forloop.last == true %} &ensp;{% endunless %}{% endfor %}
 
 <br>

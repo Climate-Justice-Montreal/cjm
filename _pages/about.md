@@ -1,45 +1,51 @@
 ---
-title: Your First Quaker Meeting in Six Steps
+title: About Us
+description: Vision & Principles
 lang: en
 trans: about
 ---
-1. &nbsp;[![](/assets/images/no-tie_color.png){: img_left height="35px" class="down_a_bit_more"} &nbsp;You're welcome as you are. Dress comfortably (ties are fine too)](#notie){: id="linkoff"}  <br>
+## VISION
+Climate Justice Montreal is a group pursuing environmental and climate justice through education, mobilization and collective action in solidarity with directly affected communities.
 
-2. [<i class="fas fa-chair fa-fw fa-2x down_a_bit_more" style="color: #4d1a00;"></i> Sit anywhere you like](#chair){: id="linkoff"}
+## WHAT WE DO
+Climate Justice Montreal strives to act in solidarity by using anti-oppression and decolonization principles, making decisions by non-hierarchical consensus. We are committed to open, inclusive, participatory and transparent organizing in Tiohtià:ke (Montréal, Quebec).
 
-  
-1. [<i class="fas fa-search fa-fw fa-2x color-1-text down_a_bit_more"></i> In the quiet of Quaker meeting, look inside](#look){: id="linkoff"}
+In our organizing, we see the issues around climate justice as inherently linked to larger questions of capitalism and colonialism. Through our content and the way that we organize, we try to address and highlight these injustices. Our initiatives strive to take direction from and amplify the voices of those most affected by systemic oppression due to race, ethnicity, class, gender, age, sexuality, ability, illness and mental health.
 
-  
-1. [<i class="fas fa-hand-holding-heart fa-fw fa-2x down_a_bit_more" style="color: crimson"></i> If moved, speak from the heart. If not, listen](#heart){: id="linkoff"}
+## HOW WE ORGANIZE
+CJM is a non-hierarchical collective that operates by consensus. We make decisions through bi-weekly meetings, and rotate roles and responsibilities to distribute power between members. In experimenting with new campaigns and actions, and continuing on a process of self-education and workshops, we aim to continuously increase our collective capacity to mobilize. Meetings are open to all who support with the organization’s mission and stated principles. For more info on how to get involved, contact us.
 
+In addition to our general meetings which work on climate justice issues related to the tar sands in Canada, CJM has three working groups: education, direct action, and Indigenous solidarity.
 
-1. [<i class="far fa-pause-circle fa-fw fa-2x color-1-light-text down_a_bit_more"></i> After people speak, allow a moment for reflection. Out of respect, we avoid responding to others during worship](#wait){: id="linkoff"}
+## HISTORY
+Climate Justice Montreal developed in 2009 after Power Shift Canada. This was a national gathering of Canadian youth climate change activists in Ottawa, Ontario. After three days of workshops, discussions, and protests outside and inside Parliament, the Montreal contingent decided it was time to take action in Quebec.
 
+After a Climate Camp to stop the construction of a pumping station in Dunham, Quebec, CJM lay dormant until it rose like a phoenix from the ashes of Powershift 2012. Since then, CJM has organized several forums and community events, co-hosted speakers events, and created several actions in and around Montreal.
 
-1. [<i class="fas fa-mug-hot fa-fw fa-2x color-1-dark-text"></i> We encourage you to stay for tea after if you are able](#tea){: id="linkoff"}
+## PRINCIPLES
+### Solidarity approach
+A commitment to:
 
-  
-************
+* Establishing relationships with communities directly affected by any issues we take on;
+* Being transparent about our aims, interests and decision-making process within those relationships;
+* Taking direction from affected communities and sharing the burden of their struggle through support work that amplifies their message and empowers affected community within
+* Considering and working for the wellbeing of affected communities in general
+* Being transparent about the criteria we use to determine who we work with in a given community, and take responsibility for the effects our interventions have
+### Anti-oppression and decolonization
+A commitment to:
 
-Welcome.
+* Understanding systemic oppression based on skin colour, ethnicity, class, gender, age, sexuality, ability, illness and mental health.
+* Understanding our own role in normalizing this oppression on a day to day level, and taking appropriate action to create equitable relationships
+* Understanding our own history and the ways in which we benefit from historical and ongoing land theft
+* Confronting said land theft and the systemic devaluing of certain groups of human beings that makes it possible
+* Creating inclusive spaces by actively supporting and encouraging equal participation in meetings, roles, tasks etc.
+* Proactively sharing knowledge and skills to facilitate sharing of roles
+* Noticing who is excluded from the group, and seeking to understand why that is and take appropriate action
+### Consensus
+A commitment to:
 
-A Quaker Meeting is based on silence, but it is a silence of waiting in expectancy. The silence may last for quite some time, perhaps a half hour or more. But that does not mean that nothing is happening. All of us are trying to come nearer to each other and to God as we are caught up in the still spirit of the Meeting. We do not worship in isolation but try to hold an awareness of all those gathered with us, uniting in a common purpose, so that the waiting and listening becomes an act of sharing.
-
-![](/assets/images/no-tie_color.png){: img_left height="16"}<span class="stanchor"><a name="notie"> </a></span> &nbsp;There is no dress code so come as you are and feel free to wear whatever makes you feel your best. Meeting for Worship starts as soon as the first person enters the room and sits down. It is helpful if the Meeting can settle a few minutes before the appointed time, but we prefer your company to your absence.
-
-<i class="fas fa-chair" style="color: #4d1a00;"></i><span class="stanchor"><a name="chair"> </a></span> &nbsp;Go in as soon as you are ready. Sit anywhere you like but if possible, leave seats near the door for latecomers. Children may be present for a time at the beginning or the end of Meeting, and may have their own activities with us or in another room.
-
-<i class="fas fa-search color-1-text"></i><span class="stanchor"><a name="look"> </a></span> &nbsp;You may find it easy to relax in the silence and thus to enter into the spirit of the Meeting, or you may be disturbed by the strangeness of the silence, by distractions outside or by your own roving thoughts. Do not worry about this; we all find it difficult to settle at times, but we return again and again to the still centre of our being, where the presence of God can be known. Try, if only for brief periods, to be quiet in body, mind and spirit. Bring whatever is pressing on your mind to the Meeting. It can be a time of insight, revelation, healing, or calm.
-
-<i class="fas fa-hand-holding-heart" style="color: crimson"></i><span class="stanchor"><a name="heart"> </a></span> &nbsp;The silence may be broken if someone present feels called to say something which will deepen and enrich the worship. Anyone is free to speak, pray or read aloud an appropriate passage, provided it is done in response to a prompting of the Spirit which comes in the course of the Meeting. The silence is broken for the moment but it is not interrupted.
-
-<i class="far fa-pause-circle color-1-light-text"></i><span class="stanchor"><a name="wait"> </a></span> &nbsp;Listen to what is said in an open-minded, charitable spirit. If something is said that does not speak to your condition or need, try nevertheless to reach the spirit behind the words. The speaker wants to help the Meeting; take care not to reject the offering by negative criticism.
-
-Each of us brings our own life’s experiences to Meeting. Some will thankfully accept God’s inexhaustible love shown in Jesus, the promise of forgiveness and the setting aside of past failure. Others, who feel less affinity for the notion of God, may seek to be open to people in a spirit of love and trust.
-
-In the quietness of a Quaker Meeting those present can become aware of a deep and powerful spirit of love and truth that transcends ordinary experience. We seek to become united in love and strengthened by truth so that we enter a new level of living, despite the different ways in which we may account for this life-expanding experience.
-
-<i class="fas fa-mug-hot color-1-dark-text"></i><span class="stanchor"><a name="tea"></a></span> &nbsp;After about an hour, two Friends will shake hands to mark the end of the worship. The Clerk then may announce forthcoming events and give news of members. Afterwards, do feel free to stay for tea and snacks. Speak to someone nearby, particularly if you wish to know more about Quakers. &nbsp;<i class="fas fa-book-reader color-1-text"></i> Literature is usually available, and books can often be borrowed from the library about Quaker [values](/intro.html), [work](/testimonies.html), and [history](/links_history.html).
-
-![](/assets/images/benches.jpg){:class="img_center"}
+* Ensuring that a decision reflects the input of everyone present
+* A spirit of openness, collaboration and compromise
+* Addressing power relationships within the group, with a view to equalize them
+* Harnessing the creativity and lived experience of all participants
+* Decentralizing and redistributing leadership roles to everyone in the group

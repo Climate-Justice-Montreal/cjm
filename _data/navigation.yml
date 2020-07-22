@@ -1,93 +1,44 @@
 en:
-- title: I'm new
+- title: About
   hovertitle: About Us
-  link: /intro
+  link: /about/
   icon: <i class="far fa-hand-paper"></i>
-  submenu: 
-    - subtitle: First Time
-      sublink: /about
-    - subtitle: Introduction to Quakers 
-      sublink: /intro
-    - subtitle: Quaker Values (Testimonies)
-      sublink: /testimonies
-    - subtitle: Links and History
-      sublink: /links_history
-- title: Find Us
-  icon: <i class='fas fa-map-marker-alt'></i>
+- title: Working Groups
+  icon: <i class='fas fa-pencil-alt'></i>
   submenu:
-    - subtitle: Sundays in Montreal
-      sublink: /directions
-    - subtitle: Midweek in Montreal
-      subhovertitle: Midweek Meeting in Montreal
-      sublink: /midweek
-    - subtitle: Quebec City
-      sublink: /qc
-    - subtitle: South Shore
-      sublink: /south_shore
-    - subtitle: Laurentians
-      subhovertitle: Laurentian Worship Group
-      sublink: /laurentians
-#    - subtitle: Accessibility
-#      subhovertitle: Accessibility information for our places of worship
-#      sublink: /accessibility
+    - subtitle: Indigenous solidarity
+      sublink: /wg/indigenous
+    - subtitle: Education
+      sublink: /wg/education
+    - subtitle: Action & Resistance
+      sublink: /wg/action
 #      subicon: <i class="fas fa-universal-access fa-fw"></i>
-- title: Updates
-  hovertitle: The Latest Events & News
-  link: /posts
+- title: Past Events
+  link: /past-events
   icon: <i class='fas fa-rss'></i>
-- title: Next steps
-  hovertitle: Information to better integrate into the meeting community
-  link: /new_attender/
-  icon: <i class="fas fa-arrow-circle-right fa-fw"></i>
-# - title: Calendar
-#   link: /calendar
-#   icon: <i class='far fa-calendar-alt'></i>
 - title: Donate
   link: /donate
   icon: <i class='fas fa-coins'></i>
-- title: Contact Us
+- title: Contact
   link: /contact
   icon: <i class='far fa-envelope-open'></i>
 
 fr:
-- title: Première fois
+- title: Qui sommes-nous
   icon: <i class="far fa-hand-paper"></i>
-  link: /intro-fr
+  link: /a_propos
 #  {% comment %}<i class='far fa-address-card'></i>{% endcomment %}
+- title: Groupes de travail
+  icon: <i class='fas fa-pencil-alt'></i>
   submenu:
-    - subtitle: Déroulement
-      sublink: /à_propos
-    - subtitle: Introduction aux Quakers
-      sublink: /intro-fr
-    - subtitle: Nos valeurs (les témoignages)
-      sublink: /témoignages
-    - subtitle: Liens et histoire
-      sublink: /liens_histoire
-- title: Nous trouver
-  icon: <i class='fas fa-map-marker-alt'></i>
-  submenu:
-    - subtitle: Dimanche à Montréal
-      sublink: /coordonnées
-    - subtitle: Mi-semaine à Montréal
-      sublink: /mi-semaine
-    - subtitle: À Québec
-      sublink: /québec
-    - subtitle: Rive-Sud
-      sublink: /rive-sud
-    - subtitle: Laurentides
-      sublink: /laurentides
-- title: Nouvelles
-  hovertitle: Nos mises à jour
-  link: /nouvelles
-  icon: <i class='fas fa-rss'></i>
-  # - title: Programmation
-  #   link: /calendrier
-  #   icon: <i class='far fa-calendar-alt'></i>
-- title: Étape suivante
-  hovertitle: Des informations pour mieux s'intégrer dans notre communauté
-  link: /nouveau/
-  icon: <i class="fas fa-arrow-circle-right fa-fw"></i>
-# - title: Calendar
+    - subtitle: Solidarité avec les peuples autochtones
+      sublink: /gt/autochtone
+    - subtitle: S'informer
+      sublink: /sinformer
+    - subtitle: Action et résistance
+      sublink: /gt/résistance
+- title: Événements passés
+  link: /passé
 - title: Donner
   link: /don
   icon: <i class='fas fa-coins'></i>
@@ -109,9 +60,7 @@ footer-en:
 - title: Accueil
   link: /index-fr
 - title: About
-  link: /intro
-- title: Accessibility
-  link: /accessibility
+  link: /about
 - title: Contact
   link: /contact
 
@@ -121,8 +70,6 @@ footer-fr:
 - title: Home
   link: /index-en
 - title: À propos
-  link: /intro-fr
-- title: Accessibilité
-  link: /accessibilité
+  link: /a_propos
 - title: Contact
   link: /contact-fr

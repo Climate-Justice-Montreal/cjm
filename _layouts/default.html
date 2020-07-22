@@ -2,6 +2,7 @@
 layout: compress
 ---
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+{% for each in site.data.hero-images %}{% if each.trans == page.trans %}{% assign hero-image = each.img %}{% endif %}{% endfor %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +11,7 @@ layout: compress
   <link rel="preload" href="/assets/css/navstyle.css" as="style">
   <link rel="preload" href="/assets/css/style.css" as="style">
   <link rel="preload" href="/assets/css/fa-custom.css" as="style">
+  <link rel="preload" href="{{ hero-image }}" as="jpg">
   <!-- <link rel="preload" href="/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
   <link rel="preload" href="/assets/google_fonts/Bitter/Bitter-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
@@ -29,13 +31,11 @@ layout: compress
   {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="/assets/css/grid.css">{% endif %}
   <link rel="stylesheet" href="/assets/css/navstyle.css">
   <link rel="preload" href="/assets/js/navigation.js" crossorigin>
-  <link rel="icon" type="image/png" href="/assets/images/quaker_icon_32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/images/quaker_icon_192x192.png" sizes="192x192">
   <link rel="manifest" href="/manifest{% if fr %}-fr{% endif %}.webmanifest">
-  {% if page.trans == "contribution" %}<link rel="dns-prefetch" href="https://canadahelps.org">{% endif %}
   {% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
   {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}
-  {% if page.trans == "directions" or page.trans == "midweek" or page.trans == "quebec" or page.trans == "south_shore" or page.trans == "laurentians" %}<link rel="dns-prefetch" href="https://maps.google.com">{% endif %}
   {% comment %}Default title in English but in French too{% endcomment %}
   <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>
   <! -- search header -->
@@ -52,28 +52,10 @@ layout: compress
  <nav>
 	 {% comment %}This inserts the code for the navigation{% endcomment %}
    {% include datanavigation.html %}
-   {% comment %}Turn alerts on and off using _config.yml, see the README{% endcomment %}
    <div class="container-alert">
    {% if page.url != "/nouveau/" and page.url != "/new_attender/" and page.url contains "/nouveau/" or page.url contains "/new_attender/" or page.url contains "/glossary/" or page.url contains "/glossaire/" %}{% include breadcrumbs.html %}{% endif %}
-   {% if site.redalerts == "all" %}
-     <div class="stickystart redalert"><div></div><div class="alert">{% if fr %}{% capture alerte %}{% include {{ site.redalert_fr-text }} %}{% endcapture %}{{ alerte | markdownify }}
-     {% else %}{% capture alert %}{% include {{ site.redalert_en-text }} %}{% endcapture %}{{ alert | markdownify }}
-   {% endif %}</div>{% include alert/closebtn.html %}</div>{% endif %}
-   {% if site.redalerts == "some" %}{% for each in site.redalert_pages %}
-     {% if page.trans == each.page_trans %}<div class="stickystart redalert"><div></div><div class="alert">
-       {% if fr %}{% capture alerte %}{% include {{ site.redalert_fr-text }} %}{% endcapture %}{{ alerte | markdownify }}{% elsif page.trans == each.page_trans %}{% capture alert %}{% include {{ site.redalert_en-text }} %}{% endcapture %}{{ alert | markdownify }} {% endif %}  </div>{% include alert/closebtn.html %}</div>{% endif %}
-   {% endfor %}
-   {% endif %}
-       {% comment %}Green alerts now{% endcomment %}
-   {% if site.greenalerts == "all" %}
-     <div class="stickystart greenalert"><div></div><div class="alert">{% if fr %}{% capture alerte %}{% include {{ site.greenalert_fr-text }} %}{% endcapture %}{{ alerte | markdownify }}
-     {% else %}{% capture alert %}{% include {{ site.greenalert_en-text }} %}{% endcapture %}{{ alert | markdownify }}
-   {% endif %}</div>{% include alert/closebtn.html %}</div>{% endif %}
-   {% if site.greenalerts == "some" %}{% for each in site.greenalert_pages %}
-     {% if page.trans == each.page_trans %}<div class="stickystart greenalert"><div></div><div class="alert">
-       {% if fr %}{% capture alerte %}{% include {{ site.greenalert_fr-text }} %}{% endcapture %}{{ alerte | markdownify }}{% elsif page.trans == each.page_trans %}{% capture alert %}{% include {{ site.greenalert_en-text }} %}{% endcapture %}{{ alert | markdownify }} {% endif %}  </div>{% include alert/closebtn.html %}</div>{% endif %}
-   {% endfor %}
-   {% endif %}
+   {% comment %}Turn alerts on and off using _config.yml, see the README{% endcomment %}
+   {% include alert/alertcode.html %}
    </div>
 </nav>
 	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the following unless statement...{% endcomment %}
