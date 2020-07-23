@@ -65,7 +65,7 @@ $buttonyellow: #fafad2;
   span {transition: 0.5s;}
   span:after {
     content: '\00bb';
-    color: white;
+    color: $body-color-text;
 //    position: absolute;
     opacity: 0;
     top: 0;

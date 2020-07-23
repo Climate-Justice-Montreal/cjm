@@ -1,6 +1,5 @@
 ---
 title: Education
-description: News & Resources
 lang: en
 trans: education
 permalink: /wg/education

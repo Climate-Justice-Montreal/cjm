@@ -47,7 +47,7 @@ $verynarrow: {{ site.verynarrow }};
   .search-container {
     flex: 1 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     // max-width: 100%;
     align-items: center;
     margin: 0px 0 0;
@@ -250,6 +250,7 @@ $verynarrow: {{ site.verynarrow }};
 // NARROW screen
 @media screen and (max-width: $mob-pixels - 1) {
   .navbar {
+  // justify-content: space-between;
 	  a,#response,input[type=search],.search-container {
      display: none;
       }
@@ -259,7 +260,6 @@ $verynarrow: {{ site.verynarrow }};
   }
   #narrowheader {
      position: absolute;
-     margin-top: 13px;
      left: 50%;
      font: {size: $nav-font-size;
        family: $font-serif;}
@@ -268,6 +268,12 @@ $verynarrow: {{ site.verynarrow }};
      background-color: transparent;
      color: $nav-color-text;
      white-space: nowrap;
+     a { 
+       height:0;width:0;
+       img {
+         padding: 12px;
+       }
+     }
    }
    #nolink {
      color: $nav-color-text;
@@ -277,7 +283,6 @@ $verynarrow: {{ site.verynarrow }};
 
    .icon_right {
      display: block;
-     float: right;
      text-decoration: none;
      z-index: 600;
    }
@@ -294,6 +299,7 @@ $verynarrow: {{ site.verynarrow }};
       float: left;
       display: block;
       cursor: pointer;
+      padding: 30px 15px;
      &:hover {
         background-color: $color-1;
       }

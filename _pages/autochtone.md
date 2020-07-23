@@ -1,6 +1,5 @@
 ---
 title: Solidarité avec les peuples autochtones
-description: Nouvelles et ressources
 lang: fr
 trans: indigenous
 permalink: /gt/autochtone

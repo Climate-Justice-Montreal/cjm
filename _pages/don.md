@@ -1,6 +1,8 @@
 ---
 title: Faire un don
 lang: fr
-trans: contribution
+trans: donate
 ---
-Climate Justice Montreal relies on donations to continue the work we do. In order to donate to Climate Justice Montreal, please send an [email money transfer](mailto:justiceclimatiquemtl@gmail.com) (you can use “reconcile” (without quotes) as the password or email Jen the password you chose).
+Justice Climatique Montréal compte sur vos dons pour poursuivre son travail.
+
+Pour faire un don, veuillez faire un virement Interac [par courriel](mailto:justiceclimatiquemtl@gmail.com) puis envoyer le mot de passe que vous avez choisi.

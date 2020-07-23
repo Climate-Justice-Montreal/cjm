@@ -1,6 +1,5 @@
 ---
 title: Indigenous Solidarity
-description: News & Resources
 lang: en
 trans: indigenous
 permalink: /wg/indigenous

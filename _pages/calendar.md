@@ -1,5 +1,5 @@
 ---
-title: Meeting Calendar
+title: Calendar
 lang: en
 trans: calendar
 ---

@@ -1,6 +1,5 @@
 ---
 title: S'informer
-description: Nouvelles et ressources
 lang: fr
 trans: education
 permalink: /gt/sinformer

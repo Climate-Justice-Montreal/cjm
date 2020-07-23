@@ -1,20 +1,23 @@
 - trans: contact
-  img: /assets/images/donate-contact.jpg
+  img: donate-contact
   alt-en: CJM members with banner at a protest
   alt-fr: Les membres du JCM à une manif
 - trans: donate
-  img: /assets/images/donate-contact.jpg
+  img: donate-contact
   alt-en: CJM members with banner at a protest
   alt-fr: Les membres du JCM à une manif
-- trans: action-resist
-  img: /assets/images/Action-resist.jpg
+- trans: action
+  img: Action-resist
 - trans: education
-  img: /assets/images/Education.jpg
+  img: Education
 - trans: wg
-  img: /assets/images/Working-Meeting.jpg
+  img: Working-Meeting
 - trans: indigenous
-  img: /assets/images/Indigenous-sol.jpg
+  img: Indigenous-sol
 - trans: covid
-  img: /assets/images/Virus.jpg
+  img: Virus
 - trans: index
-  img: /assets/images/Justice-climatique-pour-tous.jpg
+  img: Justice-climatique-pour-tous
+- trans: about
+  img: Group-2015-3
+

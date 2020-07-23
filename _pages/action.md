@@ -1,10 +1,9 @@
 ---
-title: Action et résistance
-description: Nouvelles et ressources
-lang: fr
+title: Action and Resistance
+lang: en
 trans: action
-permalink: /gt/résistance
+permalink: /wg/action
 ---
-Justice Climatique Montréal résiste à l’expansion des projets liés aux énergies fossiles. Nous organisons et participons à des actions directes non violentes telles que des marches, des manifestations, des sit-in, des blocages, etc.
+Climate Justice Montreal resists the expansion of fossil fuel projets. We organize and participate in non-violent direct actions such as marches, demos, sit-ins, blockades, etc.
 
-Pour en savoir plus sur nos actions à venir ou pour vous impliquer, suivez notre [page Facebook](https://www.facebook.com/ClimateJusticeMontreal){: rel="noopener" target="_blank"} ou [contactez-nous](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
+To learn more or to get involved, follow our [Facebook page](https://www.facebook.com/ClimateJusticeMontreal){: rel="noopener" target="_blank"} or [contact us](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.

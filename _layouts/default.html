@@ -2,7 +2,6 @@
 layout: compress
 ---
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
-{% for each in site.data.hero-images %}{% if each.trans == page.trans %}{% assign hero-image = each.img %}{% endif %}{% endfor %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +10,8 @@ layout: compress
   <link rel="preload" href="/assets/css/navstyle.css" as="style">
   <link rel="preload" href="/assets/css/style.css" as="style">
   <link rel="preload" href="/assets/css/fa-custom.css" as="style">
-  <link rel="preload" href="{{ hero-image }}" as="jpg">
-  <!-- <link rel="preload" href="/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
+   <!-- <link rel="preload" href="/assets/images{{ hero-image }}.jpg" as="jpg">
+ <link rel="preload" href="/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
   <link rel="preload" href="/assets/google_fonts/Bitter/Bitter-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -61,13 +60,24 @@ layout: compress
 </nav>
 	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the following unless statement...{% endcomment %}
   <header>
-	<br>
-    {% for each in site.data.hero-images %}
-       <div class="parallax-container">
-         <div class="parallax-child"></div>
+    {% for each in site.data.hero-images %}{% if page.trans == each.trans %}
+<div class="base-wrapper" style="background-image:url('/assets/images/{{ each.img }}.webp');background-attachment:fixed;background-repeat: no-repeat;background-size:cover;height:40vh">
+  <div class="parallax-container">
+    <div class="wrapper" >
+      {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
+      {% comment %}{% include picture.html basename=each.img alt=alt class="background__image" %}
+      <img class="background__image" src="">
+      <img class="middle__image" src="" />
+      <img class="foreground__image" src="" />{% endcomment %}
+      {% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
+      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}
+    </div>
+  </div>
+</div>
+         </div>
        </div>
-    {% if page.title %} <h1 class="header">{{ page.title }}</h1>{% endif %}
-    {% if page.description %}<h2 class="header">{{ page.description }}</h2>{% endif %}
+     {% endif %}
+    {% endfor %}
   </header>
    <main>
 	<br>

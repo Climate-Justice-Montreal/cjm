@@ -18,7 +18,7 @@ webrick:
 # Certain types of media can be assigned to specific pages using this list. Everything in "media" is in the _include folder.
 
 media_pages:
-  - page_trans: index
+  - page_trans: quebec
     media: youtube/yt_embed.html
   - page_trans: calendar
     media: calendar.html
@@ -33,7 +33,7 @@ media_pages:
     # Anything else, like '"alerton = "off"' and alerts will be off.
     # Change alert colour in the _sass/_colors.scss, $alert-color
 
-redalerts: some
+redalerts: off
 redalert_en-text: alert/en-covid.md
 redalert_fr-text: alert/fr-covid.md
 redalert_pages:
@@ -56,15 +56,13 @@ bird_left:
 
 bird_right:
   - animation: land_right
-    trans: index
+    trans: south_shore
   - animation: roll_bird2
-    trans: links_history
+    trans: quebec
   - animation: swing-in1
-    trans: index
+    trans: laurentians
 
 mobile_bird: 
-  - animation: roll_bird1
-    trans: links_history
   - animation: swing-in1
     trans: index
 
@@ -72,8 +70,10 @@ mobile_bird:
 header_animation:
   - animation: flicker-glow
     trans: quebec
-  - animation: focustext
+  - animation: swing-in1
     trans: index
+  - animation: focustext
+    trans: quebec
 
     # the text at the top of each page on mobile/narrow screens
 mobile_header_animation:

@@ -1,43 +1,86 @@
-Josh Brown  
-Quakers believe that if you want to find out what God has to say, you need to listen.  And so we spend a lot of time listening in quiet prayer.  That quiet prayer time, which can happen anytime, anywhere, is the heart of the Quaker religious experience.
+I’m the world’s hip-hoppiest oil lobbyist
+Dope at my job, I’m a pro, no hobbyist
+And I feel the awfullest, man I can’t stand
+the way people misunderstand Transcanada.
 
-What to Expect in Quaker Meeting for Worship
+Damn it bro, I’m yellin’ like tarzan
+when I hear a harsh animosity for our plans.
+Yeah, we’re gonna scar up the land but 
+We’re embarked on a grand project: 
+we’re extracting oil from the tar sands!
 
-Maggie Harrison  
-If you are going to go into Quaker Meeting for the first time, first of all, congratulations.  So you walk in, sit down, be quiet.  What to expect when you’re there, besides just “go with the flow” is different things depending on where you are.
+So I had to write rhymes, 
+cuz it’s the struggle of a lifetime!
+For Energy East and Keystone XL
+I had to pipe up for the pipelines.
 
-What Should I Wear?
+Tree-huggers chill, please try to stress less.
+If there’s a spill there’ll be a mess, yes.
+But then there’s a clean-up and that means jobs.
+Um, that’s the opposite of a problem.
 
-Vanessa Julye  
-Unlike some other churches, you don’t need to dress up with suit and tie or a fancy dress.  Most of the folks come in jeans, t-shirts, or shorts/t-shirts.  Whatever you’re comfortable in.
-Should I Bring My Kids?
+Other people say building these pipes
+is gonna infringe on indigenous rights.
+Forcing the Dene, Métis, and the Cree 
+off of their ancestral territory.
 
-Maggie Harrison  
-So you’re thinking about coming to Meeting and you have children.  You really need to know that you have to bring them.  They may or may not enjoy themselves but we’re always so thrilled to have young people join us.  They come and they’re bringing their alive-ness and their love and their genuine-ness.  So please, yes, bring them.
+They say we destroy culture and tradition,
+Poisoning the land they live, hunt, and fish in.
+Making them sick, and depressed and to boot,
+They’re left economically destitute.
 
-Entering The Space: A Plain Setting
+Well, shoot, our oil is so above board
+that we bought the URL ethicaloil.org
+This crew’s harmless, kindly, and sweet.
+It even helps little old ladies cross streets.
 
-Maggie Harrison  
-So if you come into this space and you’re looking for images or words on the walls, some kind of direction, and you’re going to notice that there isn’t going to be any there.  From the very beginning of Quakerism, its about the inside.  So it’s about you not looking around you for that, but really going inward for your own wisdom, for your own piece of the divine that’s been given to you.
+And if some native community gets in our way, 
+we’ll buy ‘em off cheap with impunity!
+Oops, ha, foolish me, I mean 
+we provide short-term development opportunities.
 
-Kody Hersh  
-Sometimes a worship room will look like a really old building with benches that have been sat on by thousands of Quakers over hundreds of years and sometimes it will look like the basement of another local church.
+Now, still others believe that these projects
+are only going to deepen wealthy peeps’ pockets.
+Leaving folks hurtin’ from the burden 
+while the oil’s only squirtin’ pay-dirt out for certain Albertans.
 
-Entering the Space: Where Should I Sit?
+Look, I gotta put an end to it.
+There will be a nation-wide economic benefit.
+Sure, most people won’t have it. 
+But we’ll be living so dang lavish 
+that we’ll jack up the national average.
 
-Kody Hersh  
-Something that’s common to them is that people often will enter already in silence, find a place in the room and sit down in silence.  Anyone coming into the room can sit anywhere, there’s not a right place or a wrong place to sit.
+And there’s just one final thang: 
+let me talk to these fools with their minds deranged,
+and chocked full of these half-cocked kinds of claims 
+about the insane dangers of climate change.
 
-The Service: Learning to Listen
+Nature-lovers say we’ll produce as much carbon
+as putting, like, seven million new cars on the roads each year.
+Well, haters be damned.
+We plan to meet Canada’s energy demand.
 
-Christie Duncan-Tessmer  
-So before you go into Meeting for Worship for the first time, I’ll tell you what I’ve always told my kids when they were little, every week before we went in, which is just, “remember when you go in, to just sit down and listen for God.  God is here with us and this is a space to listen.”
+And if you hate the pipes and you’re not a supporter,
+We’ve got some good news for ya:
+You won’t even have to think about the barrels we extract,
+Cuz almost every one, we’re gonna export on.
 
-Charlotte Cloyd  
-The first time I went to Quaker Meeting I didn’t know how to listen.  Because I had never listened in church before.  I had to work on that process of figuring out: what am I listening for?  Am I listening to myself?  What’s going on?  What is everyone else listening to and how does that affect the community and me?
+And even if you’re proven right one day
+and the temperature climbs too high then hey,
+We can hop in our tar-sands powered cars
+flip on the AC, and drive away.
 
-Maggie Harrison  
-So in that quiet-ness you walk in, you say, “Ok, everyone is sitting there quietly, when are the directions going to come?  What am I going to do?”  Just follow suit.
+I’ve got protesters in my sight lines,
+Demonstratin’ ‘bout the pipelines
+They put the “mental” in environmental.
+Man, they are not in their right minds.
 
-Christie Duncan-Tessmer  
-Just sit down in that space.  Just feel the space and the people around you and open yourself as much as you can.  Just continue to notice how you can be aware of all that’s around you and all that’s within you, and how that’s all connected to everybody else in the room.
+Well, they can go ahead and bite mine
+Cuz we got ‘em in a tight bind.
+
+Keep complainin’, you’re never gonna win,
+so you can just pipe down about the pipelines.
+
+I’m out!
+
+*Looks intimidatingly at tree*

@@ -13,3 +13,4 @@ notes/
 .jekyll-metadata
 vendor
 vendor/
+.ruby-version
