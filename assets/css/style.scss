@@ -33,10 +33,11 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight: 400;
-	margin: 10px 0;
-	font-family: $font-serif;
-	//letter-spacing: $serif-spacing;
+  font-weight: 400;
+  margin: 10px 0;
+  font-family: $font-serif;
+  color: $header-colour;
+  //letter-spacing: $serif-spacing;
 }
 h1 {font-size: 1.9rem}
 h2 {font-size: 1.5rem}
@@ -50,7 +51,7 @@ h1,h2,h3,h4 {
 	font-family: $font-serif;
 	text-align: center;
         background-color: $body-color;
-        color: $body-color-text;
+        color: $header-colour;
         padding: 10px;
 	margin: 0 auto 0;
   }
@@ -90,7 +91,7 @@ button {
     font-family: $font-sans;
     font-size: 0.8em;
     padding: 0px 0 5px 0;
-    background-color: $color-1;
+    background-color: $color-1-dark;
     text-align: center;
      h3 {
 	padding-top: .5em;

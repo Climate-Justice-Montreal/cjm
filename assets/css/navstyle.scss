@@ -125,7 +125,7 @@ $verynarrow: {{ site.verynarrow }};
 @media screen and (min-width: $mob-pixels) {
  #wideheader * {
     margin: 0px;
-    background-color: $color-1-dark;
+    background-color: $color-1;
     text: {
       align: center;
       decoration: none;}
@@ -176,7 +176,7 @@ $verynarrow: {{ site.verynarrow }};
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: $color-1-dark;
+    background-color: $color-1;
   }
 
  .dropdown {
@@ -282,7 +282,7 @@ $verynarrow: {{ site.verynarrow }};
      z-index: 600;
    }
    .navbar {
-     background-color: $color-1-dark;
+     background-color: $color-1;
      a:hover,a.active {
        background-color: darken($color-1,5%);
      }

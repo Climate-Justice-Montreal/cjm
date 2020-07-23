@@ -65,23 +65,13 @@ bird_right:
 mobile_bird: 
   - animation: roll_bird1
     trans: links_history
-  - animation: land_right
-    trans: directions
-  - animation: land_right
-    trans: midweek
-  - animation: land_right
-    trans: quebec
-  - animation: land_right
-    trans: laurentians
-  - animation: land_right
-    trans: directions
   - animation: swing-in1
     trans: index
 
     # the text at the top of each page on wide screens
 header_animation:
   - animation: flicker-glow
-    trans: contribution
+    trans: quebec
   - animation: focustext
     trans: index
 

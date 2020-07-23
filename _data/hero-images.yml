@@ -1,7 +1,11 @@
 - trans: contact
   img: /assets/images/donate-contact.jpg
+  alt-en: CJM members with banner at a protest
+  alt-fr: Les membres du JCM à une manif
 - trans: donate
   img: /assets/images/donate-contact.jpg
+  alt-en: CJM members with banner at a protest
+  alt-fr: Les membres du JCM à une manif
 - trans: action-resist
   img: /assets/images/Action-resist.jpg
 - trans: education

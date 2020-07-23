@@ -14,5 +14,3 @@ Or, follow us on [Twitter](https://twitter.com/CJ_Montreal){: rel="noopener" tar
 You can also [sign up to get involved](https://mail.google.com/mail/u/0/#inbox/FMfcgxvzKQsXSTqWllPzrfdrczpMGMXw){: rel="noopener" target="_blank"} in our bi-weekly meetings or help us with our initiatives.
 
 For any questions, or to get involved, you can also [email us](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
-
-{% include contact.html %}

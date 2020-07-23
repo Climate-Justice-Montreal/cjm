@@ -1,15 +1,15 @@
 @import "font";
 @import "variables";
 
-$color-1:  #01579B; // Real material.io colours (light blue)
-$color-1-light: #4F83CC;
-$color-1-dark: #002F6C;
+$color-1: #F0F0F0; // Real material.io colours (light blue) 
+$color-1-light: #F0F0F0;
+$color-1-dark: #CACACA;
 $color-active: darken($color-1,6%);
 $body-font-size: 17px;
-$body-color: #CACACA;
+$body-color:  #F0F0F0;
 $body-color-text: #333333;
-$header-color-text: white;
-$nav-color-text: white;
+$header-color-text: #333333;
+$nav-color-text: #333333;
 $header-font-size: 138%;
 $redalert-color:  #bf5608; // tried #ce570d;
 $redalert-text-color: white;

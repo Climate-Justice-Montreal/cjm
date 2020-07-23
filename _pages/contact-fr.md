@@ -11,5 +11,3 @@ Vous pouvez également vous inscrire pour [participer à nos réunions bi-hebdom
 
 Pour toute question ou pour vous impliquer, vous pouvez également [nous envoyer un courriel](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
 Merci !
-
-{% include contact.html %}

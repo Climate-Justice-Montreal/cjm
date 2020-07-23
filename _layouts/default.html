@@ -32,12 +32,12 @@ layout: compress
   <link rel="stylesheet" href="/assets/css/navstyle.css">
   <link rel="preload" href="/assets/js/navigation.js" crossorigin>
   <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="/assets/images/quaker_icon_192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/images/favicon.png">
   <link rel="manifest" href="/manifest{% if fr %}-fr{% endif %}.webmanifest">
-  {% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
-  {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}
-  {% comment %}Default title in English but in French too{% endcomment %}
-  <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>
+  {% comment %}{% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
+  {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}{% endcomment %}
+  {% comment %}Default title in English but in French too
+  <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>{% endcomment %}
   <! -- search header -->
   {% if page.tipue_search_active or layout.tipue_search_active %}
   <!-- <link rel="stylesheet" href="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
@@ -48,12 +48,13 @@ layout: compress
     <script src="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch.min.js"></script>
 {% endif %}
 </head>
+
 <body>
  <nav>
 	 {% comment %}This inserts the code for the navigation{% endcomment %}
    {% include datanavigation.html %}
    <div class="container-alert">
-   {% if page.url != "/nouveau/" and page.url != "/new_attender/" and page.url contains "/nouveau/" or page.url contains "/new_attender/" or page.url contains "/glossary/" or page.url contains "/glossaire/" %}{% include breadcrumbs.html %}{% endif %}
+   {% if page.trans == "quebec" %}{% include breadcrumbs.html %}{% endif %}
    {% comment %}Turn alerts on and off using _config.yml, see the README{% endcomment %}
    {% include alert/alertcode.html %}
    </div>
@@ -61,9 +62,12 @@ layout: compress
 	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the following unless statement...{% endcomment %}
   <header>
 	<br>
-    {% unless page.trans == "index" %}{% if page.title %} <h1 class="header">{{ page.title }}</h1>{% endif %}
+    {% for each in site.data.hero-images %}
+       <div class="parallax-container">
+         <div class="parallax-child"></div>
+       </div>
+    {% if page.title %} <h1 class="header">{{ page.title }}</h1>{% endif %}
     {% if page.description %}<h2 class="header">{{ page.description }}</h2>{% endif %}
-    {% endunless %}
   </header>
    <main>
 	<br>

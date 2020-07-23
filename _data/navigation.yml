@@ -2,7 +2,8 @@ en:
 - title: About
   hovertitle: About Us
   link: /about/
-  icon: <i class="far fa-hand-paper"></i>
+#  icon: <i class="far fa-hand-paper"></i>
+  icon: <i class='far fa-address-card'></i>
 - title: Working Groups
   icon: <i class='fas fa-pencil-alt'></i>
   submenu:
@@ -15,7 +16,7 @@ en:
 #      subicon: <i class="fas fa-universal-access fa-fw"></i>
 - title: Past Events
   link: /past-events
-  icon: <i class='fas fa-rss'></i>
+  icon: <i class='far fa-calendar'></i>
 - title: Donate
   link: /donate
   icon: <i class='fas fa-coins'></i>
@@ -25,9 +26,9 @@ en:
 
 fr:
 - title: Qui sommes-nous
-  icon: <i class="far fa-hand-paper"></i>
+#  icon: <i class="far fa-hand-paper"></i>
   link: /a_propos
-#  {% comment %}<i class='far fa-address-card'></i>{% endcomment %}
+  icon: <i class='far fa-address-card'></i>
 - title: Groupes de travail
   icon: <i class='fas fa-pencil-alt'></i>
   submenu:
@@ -39,6 +40,7 @@ fr:
       sublink: /gt/résistance
 - title: Événements passés
   link: /passé
+  icon: <i class='far fa-calendar'></i>
 - title: Donner
   link: /don
   icon: <i class='fas fa-coins'></i>
