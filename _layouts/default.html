@@ -58,7 +58,7 @@ layout: compress
    {% include alert/alertcode.html %}
    </div>
 </nav>
-	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the following unless statement...{% endcomment %}
+	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the unless statement...{% endcomment %}
   <header>
     {% for each in site.data.hero-images %}{% if page.trans == each.trans %}
 <div class="base-wrapper" style="background-image:url('/assets/images/{{ each.img }}.webp');background-attachment:fixed;background-repeat: no-repeat;background-size:cover;height:40vh">
@@ -69,8 +69,8 @@ layout: compress
       <img class="background__image" src="">
       <img class="middle__image" src="" />
       <img class="foreground__image" src="" />{% endcomment %}
-      {% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
-      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}
+      {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
+      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
     </div>
   </div>
 </div>
