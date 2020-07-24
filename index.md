@@ -2,7 +2,7 @@
 layout: default
 lang: en
 trans: index
-permalink: /home
+permalink: /index
 ---
 ## Climate Justice Montreal is a group pursuing environmental and climate justice through education, mobilization and collective action in solidarity with directly affected communities.
 
@@ -16,6 +16,5 @@ _______
 </object>
 
 <br>
-{% include jcm.md %}
 
 We participate in a range of intersecting struggles.

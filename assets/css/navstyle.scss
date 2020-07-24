@@ -76,7 +76,6 @@ $verynarrow: {{ site.verynarrow }};
    
   // widescreen search
   .search-container {
-    flex: 1 0 auto;
     display: flex;
     justify-content: flex-start;
     // max-width: 100%;
@@ -187,8 +186,13 @@ $verynarrow: {{ site.verynarrow }};
 
   .navbar {
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: $color-1;
+    a {
+      text-align: center;
+      display: block;
+      justify-content: center;
+    }
      input[type=search] {
       &.input_narrow {width: 1px}
       &.input_hide {visibility: hidden}
