@@ -89,13 +89,12 @@ layout: compress
 	<div class="content">
 
     {{ content }}
-    {{ site.data.jcm.source }}
     <br>
 	</div>
        {% endunless %}
        <!-- Return to top button -->
        <button onclick="topFunction()" onkeypress="topFunction()" aria-label="{% if fr %}Retour en haut{% else %}Return to top{% endif %}" id="myBtn" title="{% if fr %}Retour en haut{% else %}Return to top{% endif %}"><i class="fas fa-arrow-circle-up"></i></button>
-</article>
+{% include resources.html %}
 {% if page.trans == "index" %}{% include diamond_grid.html %}{% endif %}
    </main>
    <br />&nbsp; 

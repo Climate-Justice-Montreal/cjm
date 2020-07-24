@@ -1,21 +1,72 @@
-slideshow1:
-- title: Our historic meetinghouse on de Maisonneuve
-  titre-fr: Notre chez nous sur la rue Maisonneuve pendant les années 1970
-  file: 1974_MaisW_1.jpg
-  webp_file: 1974_MaisW_1.webp
-- title: The Greene Centre
-  titre-fr: Le Centre Greene
-  file: MMM sign - Greene.jpg
-  webp_file: MMM sign - Greene.webp
-- title: A painting of the Greene Centre
-  titre-fr: Un tableau du Centre Greene
-  file: centre_greene_painting.jpg
-  webp_file: centre_greene_painting.webp
-- title: 
-  titre-fr: 
-  file: good_group.jpg
-  webp_file: good_group.webp
-- title: Continuing a long tradition of struggle for social justice
-  titre-fr: Le travail pour la paix continue
-  file: mtl_homepage3.jpg
-  webp_file: mtl_homepage3.webp
+slideshow:
+- trans: indigenous
+  feature: /assets/PDF/decolonization-read.pdf
+  name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
+  type: pdf
+  resources:
+    - post: /assets/PDF/Line-9-Info-Sheet-Draft-4-WEB.pdf
+      name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
+      type: pdf
+    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
+      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+      type: pdf
+    - post: /assets/PDF/tb_report_final.pdf
+      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
+      type: pdf
+- trans: action
+  feature: /assets/PDF/Line-9-Info-Sheet-Draft-4-WEB.pdf
+  name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
+  type: pdf
+  resources:
+    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
+      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+      type: pdf
+    - post: /assets/PDF/tb_report_final.pdf
+      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
+      type: pdf
+    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
+      name: Climate Justice Skills Day (April 22, 2017)
+      type: jpg
+- trans: education
+  feature: /assets/PDF/hoodwinkedv2_WEB.pdf
+  name: Hoodwinked in the Hothouse - False Solutions to Climate Change
+  type: pdf
+  resources:
+    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
+      name: Climate Justice Skills Day (April 22, 2017)
+      type: jpg
+    - post: /assets/PDF/tb_report_final.pdf
+      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
+      type: pdf
+    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
+      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+      type: pdf
+    - post: /assets/PDF/Green_Shock_Doctrine.pdf
+      name: The Green Shock Doctrine – Global Justice Ecology Project
+      type: pdf
+    - post: climatejusticepamphlet.pdf
+      name: "Climate Justice Montreal: Confronting climate change from the ground up"
+      type: pdf
+    - post: /assets/PDF/decolonization-read.pdf
+      name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
+      type: pdf
+- trans: about
+  resources:
+    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
+      name: Climate Justice Skills Day (April 22, 2017)
+      type: jpg
+    - post: climatejusticepamphlet.pdf
+      name: "Climate Justice Montreal: Confronting climate change from the ground up"
+      type: pdf
+    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
+      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+      type: pdf
+    - post: /assets/PDF/jemez.pdf
+      name: Jemez Principles for Democratic Organizing
+      type: pdf
+    - post: /assets/PDF/infiltration_handout.pdf
+      name: Infiltration of Oppressive Systems
+      type: pdf
+    - post: /assets/PDF/RESOURCE_-Consensus-Zine.pdf
+      name: Consensus Decision Making Zine
+      type: pdf
