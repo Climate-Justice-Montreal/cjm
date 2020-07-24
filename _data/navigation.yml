@@ -1,7 +1,7 @@
 en:
 - title: About
   hovertitle: About Us
-  link: /about/
+  link: /about
 #  icon: <i class="far fa-hand-paper"></i>
   icon: <i class='far fa-address-card'></i>
 - title: Working Groups
@@ -50,17 +50,17 @@ fr:
 
 welcome:
 - title: Bienvenue
-  link: /index-fr
+  link: /accueil
   lang: fr
 - title: Welcome
-  link: /index-en
+  link: /home
   lang: en
 
 footer-en: 
 - title: Home
   link: /index-en
 - title: Accueil
-  link: /index-fr
+  link: /accueil
 - title: About
   link: /about
 - title: Contact
@@ -68,9 +68,9 @@ footer-en:
 
 footer-fr:
 - title: Accueil
-  link: /index-fr
+  link: /accueil
 - title: Home
-  link: /index-en
+  link: /home
 - title: À propos
   link: /a_propos
 - title: Contact
@@ -90,7 +90,7 @@ wg:
 gt:
 - title: S'informer
   icon: <i class="far fa-lightbulb fa-2x"></i>
-  link: /gt/education
+  link: /gt/sinformer
 - title: Action et Résistance
   icon: <i class="fas fa-lock fa-2x"></i>
   link: /gt/résistance

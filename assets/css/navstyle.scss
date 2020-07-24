@@ -18,9 +18,9 @@ $verynarrow: {{ site.verynarrow }};
   justify-content: flex-end;
   padding: 0px 10px;
   a {
-    padding: 3px 8px;
+    padding: 5px 10px;
     transition: color .3s;
-    &#facebook {padding: 3px 9px;}
+    &#facebook {padding: 5px 12px;}
     &:hover {
       color: white;
       &#facebook {

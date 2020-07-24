@@ -2,7 +2,7 @@
 layout: default
 trans: index
 lang: fr
-permalink: /index-fr
+permalink: /accueil
 ---
 ## Justice climatique Montréal poursuit comme groupe la justice environnementale et climatique par l’éducation, la mobilisation, et l’action collective en solidarité avec les communautés directement touchées.
 

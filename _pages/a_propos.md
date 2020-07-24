@@ -3,7 +3,7 @@ title: Qui sommes-nous
 description: Mission et Principes
 lang: fr
 trans: about
-permalink: /à_propos
+permalink: /a_propos
 ---
 ## MISSION
 Justice Climatique Montréal est un groupe qui œuvre pour la justice environnementale et climatique par l’éducation, la mobilisation et l’action collective en solidarité avec les communautés directement touchées.
