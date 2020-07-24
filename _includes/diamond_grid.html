@@ -1,7 +1,17 @@
-<div class="diamond-contain"><div class="diamond-outer"><div class="diamond-inner" style="background-color:#f0f0f0;"></div></div></div>
-<div class="struggle-grid">
-  Education
+{% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+<div class="tri-wrapper">
+  <div class="triangle-down"></div>
 </div>
 <div class="struggle-grid">
-  Indigenous
+  {% if fr %}{% for each in site.data.navigation.gt %}
+  <a href="{{ each.link }}" class="struggle-cell">
+      <p>{{ each.icon }}&ensp; {{ each.title }}</p>
+  </a>
+  {% endfor %}
+  {% else %}{% for each in site.data.navigation.wg %}
+  <a href="{{ each.link }}" class="struggle-cell">
+      <p>{{ each.icon }}&ensp; {{ each.title }}</p>
+  </a>
+  {% endfor %}
+  {% endif %}
 </div>

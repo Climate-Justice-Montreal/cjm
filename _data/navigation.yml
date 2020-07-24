@@ -75,3 +75,25 @@ footer-fr:
   link: /a_propos
 - title: Contact
   link: /contact-fr
+
+wg:
+- title: Education
+  icon: <i class="far fa-lightbulb fa-2x"></i>
+  link: /wg/education
+- title: Action and Resistance
+  icon: <i class="fas fa-lock fa-2x"></i>
+  link: /wg/action
+- title: Indigenous Solidarity
+  icon: <i class="far fa-bell fa-2x"></i>
+  link: /wg/indigenous
+
+gt:
+- title: S'informer
+  icon: <i class="far fa-lightbulb fa-2x"></i>
+  link: /gt/education
+- title: Action et Résistance
+  icon: <i class="fas fa-lock fa-2x"></i>
+  link: /gt/résistance
+- title: Solidarité
+  icon: <i class="far fa-bell fa-2x"></i>
+  link: /gt/autochtone
