@@ -432,7 +432,9 @@ input {
    background-color: $body-color;
    height: 100%;
    display: flex;
-   justify-content: space-around;
+   //justify-content: space-around;
+   flex-direction: column;
+   max-width: $text-width;
 }
 
 .content {  // always on the left if there's media
@@ -446,7 +448,7 @@ input {
 }
 @media screen and (min-width: $mob-pixels) {
   .content {
-    flex: 0 1 $text-width;
+    //flex: 0 1 $text-width;
   }
 }
 

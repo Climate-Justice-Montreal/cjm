@@ -12,6 +12,37 @@ $verynarrow: {{ site.verynarrow }};
 }
 
 // These lines style both wide and narrow versions of the site
+
+#social-media {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 10px;
+  a {
+    padding: 3px 8px;
+    transition: color .3s;
+    &#facebook {padding: 3px 9px;}
+    &:hover {
+      color: white;
+      &#facebook {
+          background: #3b5998;
+        }
+      &#twitter:hover {
+        background: #00acee
+      }
+    }
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+#facebook {
+   border-left-style: solid;
+   border-color: #333333;
+   border-width: 0.25px;
+}
+
 .navbar {
   overflow: hidden;
   z-index: 500;
@@ -170,7 +201,7 @@ $verynarrow: {{ site.verynarrow }};
       background: $color-1;
     }
   }
-  #unfold {transition: background .3s}
+  #unfold {transition: background .4s}
   
   #special {
     font-size: .00000001em;

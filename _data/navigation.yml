@@ -97,3 +97,13 @@ gt:
 - title: Solidarité
   icon: <i class="far fa-bell fa-2x"></i>
   link: /gt/autochtone
+
+social-media:
+- icon: <i class="fab fa-twitter"></i>
+  link: https://twitter.com/cj_montreal
+  bg-color: #00acee
+  name: twitter
+- icon: <i class="fab fa-facebook-f"></i>
+  link: https://facebook.com/ClimateJusticeMontreal
+  bg-color: #3b5998
+  name: facebook
