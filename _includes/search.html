@@ -1,4 +1,7 @@
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+{% for sitey in site.data.jcm.live %}
+  {% assign site_link = sitey.source %}
+{% endfor %}
 <form action="{{ page.url | relative_url }}">
   <div class="tipue_search_left"><i class="fas fa-search fa-lg color-1-dark-text"></i></div>
   <div class="tipue_search_right"><input type="search" autocomplete="off" name="q" placeholder="{% if fr %}Recherchez{% else %}Search{% endif %}..." id="tipue_search_input" pattern=".{2,}" aria-label="{% if fr %}Champ de recherche{% else %}Search field{% endif %}" title="{% if fr %}Au moins 2 caractères{% else %}At least 2 characters{% endif %}" required autofocus></div>
@@ -11,4 +14,4 @@
 <br>
 <div id="tipue_search_content"></div>
 
-<script src="/assets/js/search.js"></script>
+<script src="{{ site_link }}/assets/js/search.js"></script>
