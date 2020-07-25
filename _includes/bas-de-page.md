@@ -8,6 +8,6 @@
 
 <br>
 
-[![License CC](/assets/images/cc_logo.png){: img_center}](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr){: rel="noopener" target="_blank"}
+[![License CC]({{ site_link }}/assets/images/cc_logo.png){: img_center}](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr){: rel="noopener" target="_blank"}
 
 © Copyright 2017-2020, Justice climatique Montréal. Site web développé par Commun-IT. Les icônes par Jenny Amer, Simon Child Jnr, et Stanislav Levin du Noun Project.

@@ -8,6 +8,6 @@
 
 <br>
 
-[![Creative Commons License](/assets/images/cc_logo.png){: img_center}](http://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener" target="_blank"}
+[![Creative Commons License]({{ site_link }}/assets/images/cc_logo.png){: img_center}](http://creativecommons.org/licenses/by-nc-sa/4.0/){: rel="noopener" target="_blank"}
 
 © Copyright 2017-2020, Climate Justice Montreal. Website developed by Commun-IT. Icons by Jenny Amer, Simon Child Jnr, and Stanislav Levin from the Noun Project.

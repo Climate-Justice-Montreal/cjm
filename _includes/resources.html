@@ -1,15 +1,69 @@
+{% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+{% assign posty = site.posts %}
 {% for item in site.data.slideshow.slideshow %}
   {% if page.trans == item.trans %}
     {% if item.feature %}
-<div class="col-left">
-  <h3>Featured Resource</h3>
-  <hr><br>
-  <a href="/assets/images/Education/climatejusticepamphlet.pdf">Download PDF (Climate Justice Pamphlet)</a>
-    <object data="{{ item.feature }}" type="application/{{ item.type }}" width="300px" height="700px">
-      <embed src="{{ item.feature }}" type="application/{{ item.type }}>
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ item.feature }}">Download {{ item.type | upcase }}</a>.</p>
-    </embed>
-</object>
+<div class="diamond-grid">
+  <div class=left>
+    <h3>{% if fr %}Ressource vedette{% else %}Featured Resource{% endif %}</h3>
+    <hr><br>
+    <a href="{{ site_link }}{{ item.feature }}">View {{ item.type | upcase }} ({{ item.name }})</a>
+      <object data="{{ site_link }}{{ item.feature }}" type="application/{{ item.type }}" width="300px" height="700px">
+        <embed src="{{ site_link }}{{ item.feature }}" type="application/{{ item.type }}>
+          <p>This browser does not support PDFs. Please <a href="{{ site_link }}{{ item.feature }}">Download {{ item.type | upcase }}</a>to view it</p>
+      </embed>
+    </object>
+  </div>
     {% endif %}
   {% endif %}
 {% endfor %}
+  <div class=right>
+{% assign post_counter = 0 %}
+{% for post in posty %}
+  {% if post.tags contains page.trans %}
+    {% assign post_counter = post_counter | plus: 1 %}{% if post_counter == 1 %}   
+    <h3>{% if fr %}Nouvelles{% else %}What's New{% endif %}</h3>
+    <hr><br>
+    {% endif %}
+
+  {% comment %}All this code is just to assign the date properly in French{% endcomment %}
+  {% if fr %}
+      {% capture date_cap %} {{ post.date | date: "%-d" }} {% assign m = post.date | date: "%-m" %}
+      {% case m %}
+        {% when '1' %}janvier {% when '2' %}février {% when '3' %}mars {% when '4' %}avril {% when '5' %}mai {% when '6' %}juin {% when '7' %}juillet {% when '8' %}août {% when '9' %}septembre  {% when '10' %}octobre {% when '11' %}novembre  {% when '12' %}decembre
+      {% endcase %}
+      {{ post.date | date: "%Y" }}
+      {% endcapture %}{% assign datey = date_cap %}
+    {% else %}
+  {% assign datey = post.date | date: "%B %-d, %Y" %}
+  {% endif %}
+{% comment %}Below is the actual code creating the list{% endcomment %}
+
+      <a href="{{ post.url }}" title="{{ post.title }}"><h3>{{ post.title }}</h3></a>
+      <p>{{ datey }}</p>
+     {{ post.excerpt }}
+    <a href="{{ post.url }}">Read more...</a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+<div>
+  <h3>{% if fr %}Tous les matériels{% else %}All Materials{% endif %}</h3>
+    <hr><br>
+{% for item in site.data.slideshow.slideshow %}
+  {% if page.trans == item.trans %}
+  <div class="material-grid">
+    {% for subitem in item.resources %}
+  <div class="material-cell">
+    <a href="{{ site_link }}{{ subitem.post }}">View {{ subitem.type | upcase }} ({{ subitem.name }})</a>
+      <object data="{{ site_link }}{{ subitem.post }}" type="application/{{ subitem.type }}" width="200px" height="200px">
+        <embed src="{{ site_link }}{{ subitem.post }}" type="application/{{ subitem.type }}>
+          <p>This browser does not support PDFs. Please <a href="{{ site_link }}{{ subitem.post }}">Download {{ subitem.type | upcase }}</a>to view it</p>
+      </embed>
+    </object>
+  </div>
+    {% endfor %}
+</div>
+  {% endif %}
+{% endfor %}
+</div>

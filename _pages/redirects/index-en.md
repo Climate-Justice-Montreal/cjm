@@ -1,5 +1,5 @@
 ---
 redirect:   /index
 layout:     redirect
-permalink: /index-fr
+permalink: /index-en
 ---

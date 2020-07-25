@@ -91,10 +91,10 @@ $verynarrow: {{ site.verynarrow }};
      // color: $header-colour;
      // font-size: 1em;
      border: none;
-     transition: color 0.3s;
+     transition: 0.3s;
      cursor: pointer;
      &:hover {
-       color: white; 
+       background-color: $color-active; 
      }
     }
   }

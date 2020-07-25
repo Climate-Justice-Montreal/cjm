@@ -44,7 +44,7 @@ slideshow:
     - post: /assets/PDF/Green_Shock_Doctrine.pdf
       name: The Green Shock Doctrine – Global Justice Ecology Project
       type: pdf
-    - post: climatejusticepamphlet.pdf
+    - post: /assets/PDF/climatejusticepamphlet.pdf
       name: "Climate Justice Montreal: Confronting climate change from the ground up"
       type: pdf
     - post: /assets/PDF/decolonization-read.pdf
@@ -55,7 +55,7 @@ slideshow:
     - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
       name: Climate Justice Skills Day (April 22, 2017)
       type: jpg
-    - post: climatejusticepamphlet.pdf
+    - post: /assets/PDF/climatejusticepamphlet.pdf
       name: "Climate Justice Montreal: Confronting climate change from the ground up"
       type: pdf
     - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf

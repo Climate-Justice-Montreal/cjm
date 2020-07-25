@@ -2,38 +2,41 @@
 layout: compress
 ---
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+{% for sitey in site.data.jcm.live %}
+  {% assign site_link = sitey.source %}
+{% endfor %}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <!-- Preload some files and fonts to improve page load speed -->
-  <link rel="preload" href="{{ site.data.jcm.source }}/assets/css/navstyle.css" as="style">
-  <link rel="preload" href="/assets/css/style.css" as="style">
-  <link rel="preload" href="/assets/css/fa-custom.css" as="style">
-   <!-- <link rel="preload" href="/assets/images{{ hero-image }}.jpg" as="jpg">
- <link rel="preload" href="/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
-  <link rel="preload" href="/assets/google_fonts/Bitter/Bitter-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Black.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/css/navstyle.css" as="style">
+  <link rel="preload" href="{{ site_link }}/assets/css/style.css" as="style">
+  <link rel="preload" href="{{ site_link }}/assets/css/fa-custom.css" as="style">
+   <!-- <link rel="preload" href="{{ site_link }}/assets/images{{ hero-image }}.jpg" as="jpg">
+ <link rel="preload" href="{{ site_link }}/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
+  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Bitter/Bitter-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Black.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf" as="font" type="font/ttf" crossorigin>
   <meta name="description" content="{{ site.title}}">
   <meta name="keywords" content="{{ site.keywords}}">
   <meta name="author" content="{{ site.title}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#01579B">
   <html lang="{{ page.lang | default: 'en' }}">
-  <link rel="stylesheet" href="/assets/css/fa-custom.css">
+  <link rel="stylesheet" href="{{ site_link }}/assets/css/fa-custom.css">
   {% comment %}If you want to add FontAwesome 5 icons, comment out the line above by putting it between symbols <!-- --> like this "<!-- <link rel="stylesheet" href="/assets/css/fa-custom.css"> --> and uncomment the line the line below by removing those same symbols (<!-- and -->){% endcomment %}
-  <!-- <link rel="stylesheet" href="/assets/css/all.css"> -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-  {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="/assets/css/grid.css">{% endif %}
-  <link rel="stylesheet" href="/assets/css/navstyle.css">
-  <link rel="preload" href="/assets/js/navigation.js" crossorigin>
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/css/all.css"> -->
+  <link rel="stylesheet" href="{{ site_link }}/assets/css/style.css">
+  {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="{{ site_link }}/assets/css/grid.css">{% endif %}
+  <link rel="stylesheet" href="{{ site_link }}/assets/css/navstyle.css">
+  <link rel="preload" href="{{ site_link }}/assets/js/navigation.js" as="js" crossorigin>
+  <link rel="icon" type="image/png" href="{{ site_link }}/assets/images/favicon.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ site_link }}/assets/images/favicon.png">
   <link rel="manifest" href="/manifest{% if fr %}-fr{% endif %}.webmanifest">
   {% comment %}{% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
   {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}{% endcomment %}
@@ -41,12 +44,12 @@ layout: compress
   <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>
   <! -- search header -->
   {% if page.tipue_search_active or layout.tipue_search_active %}
-  <!-- <link rel="stylesheet" href="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
+  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script src="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_content.js"></script>
-    <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
-    <script src="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_set.js"></script>
-    <script src="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch.min.js"></script>
+    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_content.js"></script>
+    <link rel="stylesheet" href="{{ site_link }}/assets/tipuesearch/css/tipuesearch.css">
+    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_set.js"></script>
+    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch.min.js"></script>
 {% endif %}
 </head>
 
@@ -63,14 +66,10 @@ layout: compress
 	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the unless statement...{% endcomment %}
   <header>
     {% for each in site.data.hero-images %}{% if page.trans == each.trans %}
-<div class="base-wrapper" style="background-image:url('/assets/images/{{ each.img }}.jpg');">
+<div class="base-wrapper" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}.jpg');">
   <div class="parallax-container">
     <div class="wrapper" >
       {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
-      {% comment %}{% include picture.html basename=each.img alt=alt class="background__image" %}
-      <img class="background__image" src="">
-      <img class="middle__image" src="" />
-      <img class="foreground__image" src="" />{% endcomment %}
       {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
       {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
     </div>
@@ -85,16 +84,13 @@ layout: compress
 	<br>
 <article class="container-content">
 	{% comment %}Tricky to get Google's iframes, especially the Calendar, to look good in mobile without serving a special page{% endcomment %}
-   {% unless page.trans == "calendar" %}
 	<div class="content">
-
     {{ content }}
     <br>
 	</div>
-       {% endunless %}
        <!-- Return to top button -->
        <button onclick="topFunction()" onkeypress="topFunction()" aria-label="{% if fr %}Retour en haut{% else %}Return to top{% endif %}" id="myBtn" title="{% if fr %}Retour en haut{% else %}Return to top{% endif %}"><i class="fas fa-arrow-circle-up"></i></button>
-{% include resources.html %}
+{% if page.trans == "about" or page.trans == "indigenous" or page.trans == "education" or page.trans == "action" %}{% include resources.html %}{% endif %}
 </article>
 {% if page.trans == "index" %}{% include diamond_grid.html %}{% endif %}
    </main>
@@ -103,6 +99,6 @@ layout: compress
 	   {% comment %}For some reason can't include a markdown file as HTML, so the code below translates the markdown into HTML before including. Also note that there is some special footer-header styling in the stylesheet{% endcomment %}
 	   {% if page.lang =="fr" %}{% capture bas-de-page %} {% include bas-de-page.md %}{% endcapture %}{{ bas-de-page | markdownify }}{% else %}{% capture footer %} {% include footer.md %}{% endcapture %}{{ footer | markdownify }}{% endif %}
 	      </footer>
-<script src="/assets/js/navigation.js"></script>   
+<script src="{{ site_link }}/assets/js/navigation.js"></script>   
 </body>
 </html>
