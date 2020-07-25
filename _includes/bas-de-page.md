@@ -4,7 +4,7 @@
 
 {% for each in site.data.navigation.footer-fr %}[{{ each.title }}]({{ each.link }}){% unless forloop.last == true %} &ensp;{% endunless %}{% endfor %}
 
-[Nous aimer sur Facebook](/https://www.facebook.com/ClimateJusticeMontreal/){: rel="noopener" target="_blank"}
+[Nous aimer sur Facebook](https://www.facebook.com/ClimateJusticeMontreal/){: rel="noopener" target="_blank"}
 
 <br>
 

@@ -4,7 +4,7 @@
 
 {% for each in site.data.navigation.footer-en %}[{{ each.title }}]({{ each.link }}){% unless forloop.last == true %} &ensp;{% endunless %}{% endfor %}
 
-[Like us on Facebook](/https://www.facebook.com/ClimateJusticeMontreal/){: rel="noopener" target="_blank"}
+[Like us on Facebook](https://www.facebook.com/ClimateJusticeMontreal/){: rel="noopener" target="_blank"}
 
 <br>
 
