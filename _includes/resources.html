@@ -1,9 +1,10 @@
 {% for item in site.data.slideshow.slideshow %}
   {% if page.trans == item.trans %}
     {% if item.feature %}
-<h3>Featured Resource</h3>
-<hr><br>
-<a href="/assets/images/Education/climatejusticepamphlet.pdf">Download PDF (Climate Justice Pamphlet)</a>
+<div class="col-left">
+  <h3>Featured Resource</h3>
+  <hr><br>
+  <a href="/assets/images/Education/climatejusticepamphlet.pdf">Download PDF (Climate Justice Pamphlet)</a>
     <object data="{{ item.feature }}" type="application/{{ item.type }}" width="300px" height="700px">
       <embed src="{{ item.feature }}" type="application/{{ item.type }}>
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ item.feature }}">Download {{ item.type | upcase }}</a>.</p>
