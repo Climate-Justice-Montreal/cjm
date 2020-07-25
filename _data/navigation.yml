@@ -60,7 +60,7 @@ footer-en:
 - title: Home
   link: /index-en
 - title: Accueil
-  link: /accueil
+  link: https://jcm.summerhays.net/index
 - title: About
   link: /about
 - title: Contact
@@ -70,7 +70,7 @@ footer-fr:
 - title: Accueil
   link: /accueil
 - title: Home
-  link: /home
+  link: https://cjm.summerhays.net/index"
 - title: À propos
   link: /a_propos
 - title: Contact
