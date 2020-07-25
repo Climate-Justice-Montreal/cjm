@@ -1,5 +1,5 @@
 ---
-redirect:   /index
+redirect:   /home
 layout:     redirect
-permalink: /home
+permalink: /index
 ---

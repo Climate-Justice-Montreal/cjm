@@ -22,8 +22,8 @@
 
 <div class="navbar" id="myNavbar">
   <a title="Dropdown menu" class="icon" onkeypress="respondBar()" onclick="respondBar()"><i class="fas fa-bars"></i></a>
-	<a id="widehome" aria-label="Home" alt="Home" title="Home" class="{% case page.url %}{% when '/' or '/accueil' or '/home' %}active{% endcase %}"  href={% if page.lang =="fr" %}"/accueil"{% else %}"/home"{% endif %}  title="{% if fr %}Accueil{% else %}Home{% endif %}">{% if fr %}{% else %}{% endif %} <i class="fas fa-home fa-lg" alt="Home button" style="padding=0;"></i></a>
-	<a id="narrowhome" title="Home" class="{% case page.url %}{% when '/' or '/accueil' or '/home'%}active{% endcase %}"  href={% if page.lang =="fr" %}"/accueil"{% else %}"/home"{% endif %}  title="{% if fr %}Accueil{% else %}Home{% endif %}">{% if fr %}Accueil{% else %}Home{% endif %} &nbsp;<i class="fas fa-home" style="padding=0;"></i></a>
+	<a id="widehome" aria-label="Home" alt="Home" title="Home" class="{% case page.url %}{% when '/' or '/index' or 'index-fr' or '/accueil' or '/home' %}active{% endcase %}"  href={% if page.lang =="fr" %}"/accueil"{% else %}"/home"{% endif %}  title="{% if fr %}Accueil{% else %}Home{% endif %}">{% if fr %}{% else %}{% endif %} <i class="fas fa-home fa-lg" alt="Home button" style="padding=0;"></i></a>
+	<a id="narrowhome" title="Home" class="{% case page.url %}{% when '/' or '/index' or 'index-fr' or '/accueil' or '/home'%}active{% endcase %}"  href={% if page.lang =="fr" %}"/accueil"{% else %}"/home"{% endif %}  title="{% if fr %}Accueil{% else %}Home{% endif %}">{% if fr %}Accueil{% else %}Home{% endif %} &nbsp;<i class="fas fa-home" style="padding=0;"></i></a>
          {% assign counter = 0 %}
 	  {% if fr %} {% assign doclist = site.data.navigation.fr %}{% else %} {% assign doclist = site.data.navigation.en %}{% endif %}
 	  {% for item in doclist %} 
