@@ -1,6 +1,7 @@
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
 {% for sitey in site.data.jcm.live %}
   {% assign site_link = sitey.source %}
+  {% assign other_link = sitey.other %}
 {% endfor %}
 
   <!-- this header vanishes on small screens. I use liquid code to change the language of the header depending on the page language -->
@@ -63,7 +64,7 @@
   {% if otherurl %}
 			     <!-- language changer button, which flip animation -->
   <a class="icon" id="response" title="{% if fr %}View this page in English{% elsif page.lang == "en" %}Voir cette page en français{% endif %}"onclick="flipIcon()">{% if fr %}English{% elsif page.lang == "en" %}Français{% endif %} &nbsp;<i id="flippy" class="fas fa-random"></i></a>
-  <a href="{{ otherurl }}" id="flippy2" {% if page.trans == "search" %}class="searchy" {% endif %}style="display: none;"></a>
+  <a href="{{ other_link }}{{ otherurl }}" id="flippy2" {% if page.trans == "search" %}class="searchy" {% endif %}style="display: none;"></a>
   {% endif %}
   {% endif %}
   <div class="search-container">
