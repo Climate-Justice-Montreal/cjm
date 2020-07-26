@@ -123,12 +123,15 @@ button {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  column-gap: 1em;
-  padding: 2px;
+  grid-gap: 1em;
+  padding: 20px;
 }
 
 .material-cell {
   background: $color-1-dark;
+  &-desc {
+    padding: 5px;
+  }
 }
 
 .stickystart { // Ends at alert.html

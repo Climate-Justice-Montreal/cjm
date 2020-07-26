@@ -1,72 +1,87 @@
 slideshow:
 - trans: indigenous
-  feature: /assets/PDF/decolonization-read.pdf
-  name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
-  type: pdf
+  feature: decolonization-read.pdf
   resources:
-    - post: /assets/PDF/Line-9-Info-Sheet-Draft-4-WEB.pdf
-      name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
-      type: pdf
-    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
-      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
-      type: pdf
-    - post: /assets/PDF/tb_report_final.pdf
-      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
-      type: pdf
+    - post: Line-9-Info-Sheet-Draft-4-WEB.pdf
+    - post: stoptheflowofdestructionssmall_1.pdf
+    - post: tb_report_final.pdf
 - trans: action
-  feature: /assets/PDF/Line-9-Info-Sheet-Draft-4-WEB.pdf
-  name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
-  type: pdf
+  feature: Line-9-Info-Sheet-Draft-4-WEB.pdf
   resources:
-    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
-      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
-      type: pdf
-    - post: /assets/PDF/tb_report_final.pdf
-      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
-      type: pdf
-    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
-      name: Climate Justice Skills Day (April 22, 2017)
-      type: jpg
+    - post: stoptheflowofdestructionssmall_1.pdf
+    - post: tb_report_final.pdf
+    - post: Climate-Justice-Skills-day-program-Eng.jpg
 - trans: education
-  feature: /assets/PDF/hoodwinkedv2_WEB.pdf
-  name: Hoodwinked in the Hothouse - False Solutions to Climate Change
-  type: pdf
+  feature: hoodwinkedv2_WEB.pdf
   resources:
-    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
-      name: Climate Justice Skills Day (April 22, 2017)
-      type: jpg
-    - post: /assets/PDF/tb_report_final.pdf
-      name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
-      type: pdf
-    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
-      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
-      type: pdf
-    - post: /assets/PDF/Green_Shock_Doctrine.pdf
-      name: The Green Shock Doctrine – Global Justice Ecology Project
-      type: pdf
-    - post: /assets/PDF/climatejusticepamphlet.pdf
-      name: "Climate Justice Montreal: Confronting climate change from the ground up"
-      type: pdf
-    - post: /assets/PDF/decolonization-read.pdf
-      name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
-      type: pdf
+    - post: Climate-Justice-Skills-day-program-Eng.jpg
+    - post: tb_report_final.pdf
+    - post: stoptheflowofdestructionssmall_1.pdf
+    - post: Green_Shock_Doctrine.pdf
+    - post: climatejusticepamphlet.pdf
+    - post: decolonization-read.pdf
 - trans: about
   resources:
-    - post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
-      name: Climate Justice Skills Day (April 22, 2017)
-      type: jpg
-    - post: /assets/PDF/climatejusticepamphlet.pdf
-      name: "Climate Justice Montreal: Confronting climate change from the ground up"
-      type: pdf
-    - post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
-      name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
-      type: pdf
-    - post: /assets/PDF/jemez.pdf
-      name: Jemez Principles for Democratic Organizing
-      type: pdf
-    - post: /assets/PDF/infiltration_handout.pdf
-      name: Infiltration of Oppressive Systems
-      type: pdf
-    - post: /assets/PDF/RESOURCE_-Consensus-Zine.pdf
-      name: Consensus Decision Making Zine
-      type: pdf
+    - post: Climate-Justice-Skills-day-program-Eng.jpg
+    - post: climatejusticepamphlet.pdf
+    - post: stoptheflowofdestructionssmall_1.pdf
+    - post: jemez.pdf
+    - post: infiltration_handout.pdf
+    - post: RESOURCE_-Consensus-Zine.pdf
+
+files:
+- filename: decolonization-read.pdf
+  path: /assets/PDF/decolonization-read.pdf
+  name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
+  type: pdf
+  gkey: 1yspnqdO5SzVjtroCKnsIcyQrtUxlQtrc
+- filename: Line-9-Info-Sheet-Draft-4-WEB.pdf
+  post: /assets/PDF/Line-9-Info-Sheet-Draft-4-WEB.pdf
+  name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
+  type: pdf
+  gkey: 1W4la4kJIYBxR7XpGN4O0rPboFeTPzyq2
+- filename: stoptheflowofdestructionssmall_1.pdf
+  post: /assets/PDF/stoptheflowofdestructionssmall_1.pdf
+  name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+  type: pdf
+  gkey: 1FkWQVE3-wPlH3twvrQ1Gx7nUMJXutOp_
+- filename: tb_report_final.pdf
+  post: /assets/PDF/tb_report_final.pdf
+  name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
+  type: pdf
+  gkey: 1NpRnsNVxRlbb_gRlmVX8xghemHrCz26p
+- filename: Climate-Justice-Skills-day-program-Eng.jpg
+  post: /assets/images/Climate-Justice-Skills-day-program-Eng.jpg
+  name: Climate Justice Skills Day (April 22, 2017)
+  type: jpg
+  gkey: 12TbfUKjvxn7Hz23HLnvrf1WREnNP8Kwi
+- filename: hoodwinkedv2_WEB.pdf
+  path: /assets/PDF/hoodwinkedv2_WEB.pdf
+  name: Hoodwinked in the Hothouse - False Solutions to Climate Change
+  type: pdf
+  gkey: 1aS1TdV0O-4vhFbsAPwSbXhmkZinS488r
+- filename: Green_Shock_Doctrine.pdf
+  path: /assets/PDF/Green_Shock_Doctrine.pdf
+  name: The Green Shock Doctrine – Global Justice Ecology Project
+  type: pdf
+  gkey: 1jJrouSBglh8EkyaOT3FlhF-QMLwow_gy
+- filename: climatejusticepamphlet.pdf
+  path: /assets/PDF/climatejusticepamphlet.pdf
+  name: "Climate Justice Montreal: Confronting climate change from the ground up"
+  type: pdf
+  gkey: 1KzGJtKTAg8b4-gAS2q5oNVn2IIlMYLc4
+- filename: jemez.pdf
+  path: /assets/PDF/jemez.pdf
+  name: Jemez Principles for Democratic Organizing
+  type: pdf
+  gkey: 1HD80GPEYtLryAh0gekVr0wIcc3eMP6hP
+- filename: infiltration_handout.pdf
+  path: /assets/PDF/infiltration_handout.pdf
+  name: Infiltration of Oppressive Systems
+  type: pdf
+  gkey: 1dIjW1FgaFT3jsGJ7hXbUFAAmZjk9gsKl
+- filename: RESOURCE_-Consensus-Zine.pdf
+  path: /assets/PDF/RESOURCE_-Consensus-Zine.pdf
+  name: Consensus Decision Making Zine
+  type: pdf
+  gkey: 1cSc-r7L9pdtRa19kE8xQrIxJ5WH5Ji5N

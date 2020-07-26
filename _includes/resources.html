@@ -1,22 +1,22 @@
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
 {% assign posty = site.posts %}
-{% for item in site.data.slideshow.slideshow %}
-  {% if page.trans == item.trans %}
-    {% if item.feature %}
+{% if page.feat_resource %}
 <div class="diamond-grid">
+  {% for item in site.data.slideshow.files %}
+    {% if page.feat_resource == item.filename %}
   <div class=left>
     <h3>{% if fr %}Ressource vedette{% else %}Featured Resource{% endif %}</h3>
     <hr><br>
-    <a href="{{ site_link }}{{ item.feature }}">View {{ item.type | upcase }} ({{ item.name }})</a>
-      <object data="{{ site_link }}{{ item.feature }}" type="application/{{ item.type }}" width="300px" height="700px">
-        <embed src="{{ site_link }}{{ item.feature }}" type="application/{{ item.type }}>
-          <p>This browser does not support PDFs. Please <a href="{{ site_link }}{{ item.feature }}">Download {{ item.type | upcase }}</a>to view it</p>
-      </embed>
-    </object>
-  </div>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+    <div>
+      <iframe src="https://drive.google.com/file/d/{{ item.gkey }}/preview" width="300" height="700"></iframe>
+    </div>
+    <div>
+      <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing">Download {{ item.name }}</a></p>
+    </div>
+      {% endif %}
+    {% endfor %}
+{% endif %}
+</div>
   <div class=right>
 {% assign post_counter = 0 %}
 {% for post in posty %}
@@ -55,14 +55,18 @@
   <div class="material-grid">
     {% for subitem in item.resources %}
   <div class="material-cell">
-    <a href="{{ site_link }}{{ subitem.post }}">View {{ subitem.type | upcase }} ({{ subitem.name }})</a>
-      <object data="{{ site_link }}{{ subitem.post }}" type="application/{{ subitem.type }}" width="200px" height="200px">
-        <embed src="{{ site_link }}{{ subitem.post }}" type="application/{{ subitem.type }}>
-          <p>This browser does not support PDFs. Please <a href="{{ site_link }}{{ subitem.post }}">Download {{ subitem.type | upcase }}</a>to view it</p>
-      </embed>
-    </object>
+    {% for file in site.data.slideshow.files %}
+       {% if file.filename == subitem.post %}
+    <div>
+      <iframe src="https://drive.google.com/file/d/{{ file.gkey }}/preview" width="300" height="300"></iframe>
+    </div>
+    <div class="material-cell-desc">
+      Download <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing">{{ file.name }}</a>
+    </div>
   </div>
+    {% endif %}
     {% endfor %}
+  {% endfor %}
 </div>
   {% endif %}
 {% endfor %}
