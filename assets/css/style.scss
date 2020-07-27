@@ -213,7 +213,7 @@ $base-parallax-perspective: 8px;
   background-attachment: fixed; 
   background-repeat: no-repeat; 
   background-size: cover; 
-  height: 60vh;
+  height: 80vh;
 }
 
 /* Parallax Styles */
@@ -233,6 +233,7 @@ $base-parallax-perspective: 8px;
   // width: 420px;
   // height: 420px;
   background: transparent;
+  text-shadow: 2px 2px #f0f0f0;
 }
 
 .background__image {
@@ -243,16 +244,24 @@ $base-parallax-perspective: 8px;
 }
 .middle__image {
   @extend .image;
-  top: 190px;
+  top: 220px;
   transform: translateZ(5px) scale(parallax-scale-factor(5));
-  text-shadow: 2px 2px #f0f0f0;
 }
 .foreground__image {
   @extend .image;
-  top: 110px;
+  top: 90px;
   transform: translateZ(2px) scale(parallax-scale-factor(2));
-  background-color: transparent !important;
-  text-shadow: 2px 2px #f0f0f0;
+}
+
+.base-wrapper2 {
+  @extend .base-wrapper;
+  height: 10vh;
+  width: 99.1vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .center {
@@ -585,6 +594,16 @@ input {
 @media screen and (max-width: 500px) {
   .wide-p {
 	  display: none;
+  }
+  .base-wrapper {
+    background-size: contain;
+    height: 20vh;
+  }
+  .middle__image {
+    top: 45px;
+  }
+  .foreground__image {
+    top: 10px;
   }
   .narrow-p {
 	  display: block;

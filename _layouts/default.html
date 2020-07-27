@@ -70,19 +70,19 @@ layout: compress
   <header>
     {% for each in site.data.hero-images %}
       {% if page.trans == each.trans %}
-<div class="base-wrapper narrow-p" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}450.jpg');">
+{% assign hero-img = site_link | append: "/assets/images/" | append: each.img %}{% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
+
+<div class="base-wrapper narrow-p" style="background-image:url('{{ hero-img }}450.jpg');">
   <div class="parallax-container">
     <div class="wrapper" >
-      {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
-      {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
+            {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
       {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
     </div>
   </div>
 </div>
-<div class="base-wrapper wide-p" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}.jpg');">
+<div class="base-wrapper wide-p" style="background-image:url('{{ hero-img }}.jpg');">
   <div class="parallax-container">
     <div class="wrapper" >
-      {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
       {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
       {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
     </div>
@@ -94,11 +94,23 @@ layout: compress
    <main>
 	<br>
 <article class="container-content">
-	{% comment %}Tricky to get Google's iframes, especially the Calendar, to look good in mobile without serving a special page{% endcomment %}
 	<div class="content">
     {{ content }}
     <br>
 	</div>
+<div class="base-wrapper2 narrow-p" style="background-image:url('{{ hero-img }}450.jpg');">
+  <div class="parallax-container">
+    <div class="wrapper" >
+    </div>
+  </div>
+</div>
+<div class="base-wrapper2 wide-p" style="background-image:url('{{ hero-img }}.jpg');">
+  <div class="parallax-container">
+    <div class="wrapper" >
+      &nbsp;<br>
+    </div>
+  </div>
+</div>
        <!-- Return to top button -->
        <button onclick="topFunction()" onkeypress="topFunction()" aria-label="{% if fr %}Retour en haut{% else %}Return to top{% endif %}" id="myBtn" title="{% if fr %}Retour en haut{% else %}Return to top{% endif %}"><i class="fas fa-arrow-circle-up"></i></button>
 {% if page.trans == "about" or page.trans == "indigenous" or page.trans == "education" or page.trans == "action" %}{% include resources.html %}{% endif %}
