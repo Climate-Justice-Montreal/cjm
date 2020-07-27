@@ -63,8 +63,9 @@
        {% if file.filename == subitem.post %}
     <div>
       <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing" target="_blank">
-         {% if file.type == "pdf" %}{% assign realfile = site_link | append: file.path | append: "Web/" | append: file.filename | append: "300" %}{% else %}{% assign realfile = file.path | append: file.filename | append: file.type %}{% endif %}
-        {% include picture.html basename=realfile type="png" alt=file.name class=img_center %}
+         {% if file.type == "pdf" %}{% assign realfile = site_link | append: file.path | append: "Web/" | append: file.filename | append: "300" %}{% else %}{% assign realfile = file.path | append: file.filename %}{% endif %}
+         {% if file.type == "jpg" %}{% assign realtype = file.type %}{% else %}{% assign realtype = "png" %}{% endif %}
+        {% include picture.html basename=realfile type=realtype alt=file.name class=img_center %}
       {% comment %}<iframe src="https://drive.google.com/file/d/{{ file.gkey }}/preview" width="300" height="300"></iframe>{% endcomment %}
     </div>
     <div class="material-cell-desc">
