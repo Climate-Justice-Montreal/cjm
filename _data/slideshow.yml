@@ -30,58 +30,73 @@ slideshow:
     - post: RESOURCE_-Consensus-Zine
 
 files:
-- filename: decolonization-read
-  path: /assets/PDF/
-  name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
-  type: pdf
-  gkey: 1yspnqdO5SzVjtroCKnsIcyQrtUxlQtrc
-- filename: Line-9-Info-Sheet-Draft-4-WEB
-  path: /assets/PDF/
-  name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
-  type: pdf
-  gkey: 1W4la4kJIYBxR7XpGN4O0rPboFeTPzyq2
-- filename: stoptheflowofdestructionssmall_1
-  path: /assets/PDF/
-  name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
-  type: pdf
-  gkey: 1FkWQVE3-wPlH3twvrQ1Gx7nUMJXutOp_
-- filename: tb_report_final
-  path: /assets/PDF/
-  name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
-  type: pdf
-  gkey: 1NpRnsNVxRlbb_gRlmVX8xghemHrCz26p
 - filename: Climate-Justice-Skills-day-program-Eng
+  filename_full: Climate-Justice-Skills-day-program-Eng.jpg
   path: /assets/images/
   name: Climate Justice Skills Day (April 22, 2017)
   type: jpg
   gkey: 12TbfUKjvxn7Hz23HLnvrf1WREnNP8Kwi
-- filename: hoodwinkedv2_WEB
-  path: /assets/PDF/
-  name: Hoodwinked in the Hothouse - False Solutions to Climate Change
-  type: pdf
-  gkey: 1aS1TdV0O-4vhFbsAPwSbXhmkZinS488r
-- filename: Green_Shock_Doctrine
-  path: /assets/PDF/
-  name: The Green Shock Doctrine – Global Justice Ecology Project
-  type: pdf
-  gkey: 1jJrouSBglh8EkyaOT3FlhF-QMLwow_gy
+  px300: /assets/PDF/Web/Climate-Justice-Skills-day-program-Eng300
 - filename: climatejusticepamphlet
   path: /assets/PDF/
   name: "Climate Justice Montreal: Confronting climate change from the ground up"
   type: pdf
   gkey: 1KzGJtKTAg8b4-gAS2q5oNVn2IIlMYLc4
-- filename: jemez
+  px300: /assets/PDF/Web/climatejusticepamphlet300
+- filename: decolonization-read
   path: /assets/PDF/
-  name: Jemez Principles for Democratic Organizing
+  name: Colonization and Decolonization – Manual for Indigenous Liberation in the 21st Century
   type: pdf
-  gkey: 1HD80GPEYtLryAh0gekVr0wIcc3eMP6hP
+  gkey: 1yspnqdO5SzVjtroCKnsIcyQrtUxlQtrc
+  px300: /assets/PDF/Web/decolonization-read300
+  px700: /assets/PDF/Web/decolonization-read700
+- filename: Green_Shock_Doctrine
+  path: /assets/PDF/
+  name: The Green Shock Doctrine – Global Justice Ecology Project
+  type: pdf
+  gkey: 1jJrouSBglh8EkyaOT3FlhF-QMLwow_gy
+  px300: /assets/PDF/Web/Green_Shock_Doctrine300
+- filename: hoodwinkedv2_WEB
+  path: /assets/PDF/
+  name: Hoodwinked in the Hothouse - False Solutions to Climate Change
+  type: pdf
+  gkey: 1aS1TdV0O-4vhFbsAPwSbXhmkZinS488r
+  px300: /assets/PDF/Web/hoodwinkedv2_WEB300
+  px700: /assets/PDF/Web/hoodwinkedv2_WEB700
 - filename: infiltration_handout
   path: /assets/PDF/
   name: Infiltration of Oppressive Systems
   type: pdf
   gkey: 1dIjW1FgaFT3jsGJ7hXbUFAAmZjk9gsKl
+  px300: /assets/PDF/Web/infiltration_handout300
+- filename: jemez
+  path: /assets/PDF/
+  name: Jemez Principles for Democratic Organizing
+  type: pdf
+  gkey: 1HD80GPEYtLryAh0gekVr0wIcc3eMP6hP
+  px300: /assets/PDF/Web/jemez300
+- filename: Line-9-Info-Sheet-Draft-4-WEB
+  path: /assets/PDF/
+  name: "Line 9: Bad for our Community, our Economy, and our Environment (Web)"
+  type: pdf
+  gkey: 1W4la4kJIYBxR7XpGN4O0rPboFeTPzyq2
+  px300: /assets/PDF/Web/Line-9-Info-Sheet-Draft-4-WEB300
+  px700: /assets/PDF/Web/Line-9-Info-Sheet-Draft-4-WEB700
 - filename: RESOURCE_-Consensus-Zine
   path: /assets/PDF/
   name: Consensus Decision Making Zine
   type: pdf
   gkey: 1cSc-r7L9pdtRa19kE8xQrIxJ5WH5Ji5N
+  px300: /assets/PDF/Web/RESOURCE_-Consensus-Zine300
+- filename: stoptheflowofdestructionssmall_1
+  path: /assets/PDF/
+  name: "Stop the Flow of Destruction: A Primer on Climate Justice and the 2010 Climate Action Camp"
+  type: pdf
+  gkey: 1FkWQVE3-wPlH3twvrQ1Gx7nUMJXutOp_
+  px300: /assets/PDF/Web/stoptheflowofdestructionssmall_1300
+- filename: tb_report_final
+  path: /assets/PDF/
+  name: "Breaking the Trailbreaker: A Special Report on the Trailbreaker Pipeline (2010)"
+  type: pdf
+  gkey: 1NpRnsNVxRlbb_gRlmVX8xghemHrCz26p
+  px300: /assets/PDF/Web/tb_report_final300

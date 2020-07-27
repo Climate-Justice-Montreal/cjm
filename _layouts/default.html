@@ -4,6 +4,9 @@ layout: compress
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
 {% for sitey in site.data.jcm.live %}
   {% assign site_link = sitey.source %}
+  {% assign other_link = sitey.other %}
+  {% assign fr_link = sitey.fr %}
+  {% assign en_link = sitey.en %}
 {% endfor %}
 <!DOCTYPE html>
 <html>
@@ -65,8 +68,9 @@ layout: compress
 </nav>
 	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the unless statement...{% endcomment %}
   <header>
-    {% for each in site.data.hero-images %}{% if page.trans == each.trans %}
-<div class="base-wrapper" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}.jpg');">
+    {% for each in site.data.hero-images %}
+      {% if page.trans == each.trans %}
+<div class="base-wrapper narrow-p" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}450.jpg');">
   <div class="parallax-container">
     <div class="wrapper" >
       {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
@@ -75,9 +79,16 @@ layout: compress
     </div>
   </div>
 </div>
-         </div>
-       </div>
-     {% endif %}
+<div class="base-wrapper wide-p" style="background-image:url('{{ site_link }}/assets/images/{{ each.img }}.jpg');">
+  <div class="parallax-container">
+    <div class="wrapper" >
+      {% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
+      {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
+      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
+    </div>
+  </div>
+</div>
+      {% endif %}
     {% endfor %}
   </header>
    <main>

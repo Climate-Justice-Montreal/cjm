@@ -1,5 +1,4 @@
 ---
-layout: post
 tags: education, indigenous
 lang: en
 ---

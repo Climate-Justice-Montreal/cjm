@@ -116,7 +116,7 @@ button {
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   column-gap: 5em;
-  padding: 20px;
+  padding: 5px;
 }
 
 .material-grid {
@@ -124,7 +124,7 @@ button {
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1em;
-  padding: 20px;
+  padding: 5px;
 }
 
 .material-cell {
@@ -476,6 +476,14 @@ input {
   .content {
     //flex: 0 1 $text-width;
   }
+  .material-grid,diamond-grid {
+    padding: 5px;
+  }
+  .material-cell {
+    & div picture,& div img {
+      padding: 10px;
+    }
+  }
 }
 
 @media screen and (max-width: $mob-pixels - 1) {
@@ -537,7 +545,7 @@ input {
    }
 }
 // Media & Container responsiveness
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px + 1) {
   .container-content {   
     flex-direction: column;
   }
@@ -556,19 +564,29 @@ input {
   }
 }
 
-// @include media(">800px") {
-@media screen and (min-width: 800px + 1) {
-  .embed-container2 {
-	  display: default
+// @include media(">500px") {
+@media screen and (min-width: 800px) {
+  .media {
+     @include sticky;
+     align-self: flex-start;
+     right: 0;
+     top: 100px;
+     max-width: 100%;
   }
-  .embed-container1 {
+}
+@media screen and (min-width: 500px + 1) {
+  .wide-p {
+	  display: block;
+  }
+  .narrow-p {
 	  display: none;
   }
- .media {
-	 @include sticky;
-         align-self: flex-start;
-         right: 0;
-         top: 100px;
-         max-width: 100%;
- }
+}
+@media screen and (max-width: 500px) {
+  .wide-p {
+	  display: none;
+  }
+  .narrow-p {
+	  display: block;
+  }
 }
