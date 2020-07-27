@@ -3,7 +3,7 @@ title: Action et résistance
 lang: fr
 trans: action
 permalink: /gt/résistance
-feat_resource: Line-9-Info-Sheet-Draft-4-WEB.pdf
+feat_resource: Line-9-Info-Sheet-Draft-4-WEB
 ---
 Justice Climatique Montréal résiste à l’expansion des projets liés aux énergies fossiles. Nous organisons et participons à des actions directes non violentes telles que des marches, des manifestations, des sit-in, des blocages, etc.
 

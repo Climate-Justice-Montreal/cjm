@@ -3,7 +3,7 @@ title: S'informer
 lang: fr
 trans: education
 permalink: /gt/sinformer
-feat_resource: hoodwinkedv2_WEB.pdf
+feat_resource: hoodwinkedv2_WEB
 ---
 Justice Climatique Montréal organise des ateliers, des discussions en groupe et d’autres événements éducatifs sur la justice climatique et la résistance à l’expansion des énergies fossiles.
 

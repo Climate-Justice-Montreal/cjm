@@ -23,12 +23,11 @@ $verynarrow: {{ site.verynarrow }};
     &#facebook {padding: 5px 12px;}
     &:hover {
       color: white;
-      &#facebook {
-          background: #3b5998;
+      {% for each in site.data.navigation.social-media %}
+      &#{{ each.name }} {
+          background-color: #{{ each.color }};
         }
-      &#twitter:hover {
-        background: #00acee
-      }
+      {% endfor %}
     }
     p {
       margin: 0;
@@ -37,7 +36,7 @@ $verynarrow: {{ site.verynarrow }};
   }
 }
 
-#facebook {
+a.sm-link:not(:first-child) {
    border-left-style: solid;
    border-color: #333333;
    border-width: 0.25px;

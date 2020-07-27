@@ -99,11 +99,17 @@ gt:
   link: /gt/autochtone
 
 social-media:
-- icon: <i class="fab fa-twitter"></i>
+- name: instagram
+  icon: <i class="fab fa-instagram"></i>
+  link: https://www.instagram.com/justiceclimatiquemtl/
+  color: E1306C
+  # or 
+  # bg-color: C13584
+- name: twitter
+  icon: <i class="fab fa-twitter"></i>
   link: https://twitter.com/cj_montreal
-  bg-color: #00acee
-  name: twitter
-- icon: <i class="fab fa-facebook-f"></i>
+  color: 00acee
+- name: facebook
+  icon: <i class="fab fa-facebook-f"></i>
   link: https://facebook.com/ClimateJusticeMontreal
-  bg-color: #3b5998
-  name: facebook
+  color: 3b5998

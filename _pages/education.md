@@ -3,7 +3,7 @@ title: Education
 lang: en
 trans: education
 permalink: /wg/education
-feat_resource: hoodwinkedv2_WEB.pdf
+feat_resource: hoodwinkedv2_WEB
 ---
 Climate Justice Montreal hosts workshops, panel discussions, and other educational events about climate justice and resistance to fossil fuel expansion.
 
