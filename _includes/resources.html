@@ -9,7 +9,7 @@
     <hr><br>
     <div>
       <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing" target="_blank">
-         {% if item.type == "pdf" %}{% assign realfile = site_link | apprend: item.path | append: "Web/" | append: item.filename | append: "700" %}{% else %}{% assign realfile = item.path | append: item.filename | append: item.type %}{% endif %}
+         {% if item.type == "pdf" %}{% assign realfile = site_link | append: item.path | append: "Web/" | append: item.filename | append: "700" %}{% else %}{% assign realfile = item.path | append: item.filename | append: item.type %}{% endif %}
         {% include picture.html basename=realfile type="png" alt=item.name class=img_center %}
       {% comment %}<iframe src="https://drive.google.com/file/d/{{ item.gkey }}/preview" width="300" height="700"></iframe>{% endcomment %}
       </a>
