@@ -8,7 +8,11 @@
     <h3>{% if fr %}Ressource vedette{% else %}Featured Resource{% endif %}</h3>
     <hr><br>
     <div>
-      <iframe src="https://drive.google.com/file/d/{{ item.gkey }}/preview" width="300" height="700"></iframe>
+      <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing" target="_blank">
+         {% if item.type == "pdf" %}{% assign realfile = item.path | append: "Web/" | append: item.filename | append: "700" %}{% else %}{% assign realfile = item.path | append: item.filename | append: item.type %}{% endif %}
+        {% include picture.html basename=realfile type="png" alt=item.name class=img_center %}
+      {% comment %}<iframe src="https://drive.google.com/file/d/{{ item.gkey }}/preview" width="300" height="700"></iframe>{% endcomment %}
+      </a>
     </div>
     <div>
       Download <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing">{{ item.name }}</a></p>
@@ -58,7 +62,10 @@
     {% for file in site.data.slideshow.files %}
        {% if file.filename == subitem.post %}
     <div>
-      <iframe src="https://drive.google.com/file/d/{{ file.gkey }}/preview" width="300" height="300"></iframe>
+      <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing" target="_blank">
+         {% if file.type == "pdf" %}{% assign realfile = file.path | append: "Web/" | append: file.filename | append: "300" %}{% else %}{% assign realfile = file.path | append: file.filename | append: file.type %}{% endif %}
+        {% include picture.html basename=realfile type="png" alt=file.name class=img_center %}
+      {% comment %}<iframe src="https://drive.google.com/file/d/{{ file.gkey }}/preview" width="300" height="300"></iframe>{% endcomment %}
     </div>
     <div class="material-cell-desc">
       Download <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing">{{ file.name }}</a>

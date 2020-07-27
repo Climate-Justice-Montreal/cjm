@@ -1,5 +1,5 @@
 <picture>
-  <source srcset="/assets/images/{{ include.basename }}.webp" type="image/webp">
-  <source srcset="/assets/images/{{ include.basename }}.{{ include.type }}" type="image/{{ include.type }}">
-  <img src="/assets/images/{{ include.basename }}.webp" class="{{ include.class }}" alt="{{ include.alt }}">
+  <source srcset="{{ include.basename }}.webp" type="image/webp">
+  <source srcset="{{ include.basename }}.{{ include.type }}" type="image/{{ include.type }}">
+  <img src="{{ include.basename }}.webp" class="{{ include.class }}" alt="{{ include.alt }}">
 </picture>
