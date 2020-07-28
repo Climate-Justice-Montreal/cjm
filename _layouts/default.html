@@ -107,7 +107,16 @@ layout: compress
 </div>
        <!-- Return to top button -->
        <button onclick="topFunction()" onkeypress="topFunction()" aria-label="{% if fr %}Retour en haut{% else %}Return to top{% endif %}" id="myBtn" title="{% if fr %}Retour en haut{% else %}Return to top{% endif %}"><i class="fas fa-arrow-circle-up"></i></button>
-{% if page.trans == "about" or page.trans == "indigenous" or page.trans == "education" or page.trans == "action" %}{% include resources.html %}{% endif %}
+{% if page.trans == "about" or page.trans == "indigenous" or page.trans == "education" or page.trans == "action" %}
+  {% include resources.html %}
+   <br />&nbsp; 
+  <div class="base-wrapper2 wide-p" style="background-image:url('{{ hero-img }}.jpg');">
+    <div class="parallax-container">
+      <div class="wrapper" >
+      </div>
+    </div>
+  </div>
+{% endif %}
 </article>
 {% if page.trans == "index" %}{% include diamond_grid.html %}{% endif %}
    </main>

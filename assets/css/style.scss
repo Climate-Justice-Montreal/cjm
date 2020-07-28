@@ -213,7 +213,7 @@ $base-parallax-perspective: 8px;
   background-attachment: fixed; 
   background-repeat: no-repeat; 
   background-size: cover; 
-  height: 80vh;
+  height: 60vh;
 }
 
 /* Parallax Styles */
@@ -257,8 +257,8 @@ $base-parallax-perspective: 8px;
 
 .base-wrapper2 {
   @extend .base-wrapper;
-  height: 40vh;
-  width: 99vw;
+  height: 10vh;
+  width: 99.3vw;
   position: relative;
   left: 50%;
   right: 50%;
@@ -599,7 +599,7 @@ input {
   }
   .base-wrapper {
     background-size: contain;
-    height: 60vh;
+    height: 20vh;
   }
   .middle__image {
     top: 45px;

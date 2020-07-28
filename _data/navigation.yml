@@ -102,9 +102,9 @@ social-media:
 - name: instagram
   icon: <i class="fab fa-instagram"></i>
   link: https://www.instagram.com/justiceclimatiquemtl/
-  color: E1306C
+  color: C13584
   # or 
-  # bg-color: C13584
+  # color: E1306C
 - name: twitter
   icon: <i class="fab fa-twitter"></i>
   link: https://twitter.com/cj_montreal
