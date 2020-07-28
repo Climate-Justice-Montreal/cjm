@@ -15,11 +15,12 @@ layout: default
   {% assign datey = page.date | date: "%B %-d, %Y" %}
   {% endif %}
 {% comment %}Below is the actual code creating the posts{% endcomment %}
-
+{% if page.title %}<h1 class="header">{{ page.title }}</h1>{% endif %}
 <strong>{{ page.author }} — {{ datey }}</strong>
 
 {{ content }}
 
+<p>Tags: {% for each in page.tags %}{{ each }} {% endfor %}
 <hr>
 {% comment %}
   Previous / Next functions

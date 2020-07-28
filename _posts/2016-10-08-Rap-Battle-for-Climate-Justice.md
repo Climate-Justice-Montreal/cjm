@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: concordia, event, rap battle, education
+tags: education, concordia, event, rap battle
 lang: en
 ---
 On September 28th 2016, Climate Justice sponsored another Rap Battle for Climate Justice at Concordia University. With your help, we raised over $800 for ASAP ([Aamjiwnaang and Sarnia Against Pipelines](https://www.facebook.com/AamjiwnaangSarniaAgainstPipelines/){: rel="noopener" target="_blank"}).
