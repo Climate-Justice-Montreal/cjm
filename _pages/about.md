@@ -1,6 +1,5 @@
 ---
 title: About Us
-description: Vision & Principles
 lang: en
 trans: about
 ---

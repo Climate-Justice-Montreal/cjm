@@ -14,7 +14,7 @@ en:
     - subtitle: Action & Resistance
       sublink: /wg/action
 #      subicon: <i class="fas fa-universal-access fa-fw"></i>
-- title: Past Events
+- title: Updates
   link: /posts
   icon: <i class='far fa-calendar'></i>
 - title: Donate
@@ -38,7 +38,7 @@ fr:
       sublink: /gt/sinformer
     - subtitle: Action et résistance
       sublink: /gt/résistance
-- title: Événements passés
+- title: Nouvelles
   link: /nouvelles
   icon: <i class='far fa-calendar'></i>
 - title: Donner

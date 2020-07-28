@@ -1,6 +1,5 @@
 ---
 title: Qui sommes-nous
-description: Mission et Principes
 lang: fr
 trans: about
 permalink: /a_propos
