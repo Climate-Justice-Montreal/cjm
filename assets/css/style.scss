@@ -225,6 +225,7 @@ $base-parallax-perspective: 8px;
   overflow-y: auto;
   perspective: $base-parallax-perspective;
   perspective-origin: 0%;
+  transform-style: preserve-3d;
 }
 
 .image {
@@ -234,6 +235,7 @@ $base-parallax-perspective: 8px;
   // height: 420px;
   background: transparent;
   text-shadow: 2px 2px #f0f0f0;
+  position: -webkit-sticky;
 }
 
 .background__image {
