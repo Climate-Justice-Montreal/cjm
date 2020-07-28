@@ -5,25 +5,25 @@ lang: fr
 trans: about
 permalink: /a_propos
 ---
-## MISSION
+## Mission et principes
 Justice Climatique Montréal est un groupe qui œuvre pour la justice environnementale et climatique par l’éducation, la mobilisation et l’action collective en solidarité avec les communautés directement touchées.
 
-## ACTION
+## Action
 Justice Climatique Montréal s’efforce d’agir de manière solidaire en appliquant des pratiques anti-oppression et de décolonisation.Le collectif prend des décisions selon un consensus non hiérarchisé. Nous nous sommes engagé.e.s à nous organiser de manière ouverte, inclusive, participative et transparente à Tiohtià:ke (Montréal, Québec).
 
 Nous considérons que les questions relatives à la justice climatique sont intrinsèquement liées aux questions plus vastes du capitalisme et du colonialisme. Les thématiques choisies et la manière dont nous nous organisons, sont des tentatives de remédier à ces injustices et de les souligner. Nos initiatives visent à orienter et à amplifier les voix des personnes les plus touchées par l’oppression systémique en raison de leur race, ethnie, classe, sexe, âge, sexualité, capacités, maladie ou santé mentale.
 
-## ORGANISATION
+## Organisation
 CJM est un collectif non hiérarchique qui fonctionne par consensus. Nous prenons des décisions lors de réunions bi-hebdomadaires et alternons les rôles et les responsabilités pour répartir le pouvoir entre les membres. En expérimentant de nouvelles campagnes et actions, et en poursuivant un processus d’auto-éducation et d’ateliers, nous visons à augmenter continuellement notre capacité collective de mobilisation. Les réunions sont ouvertes à tous ceux qui soutiennent la mission et les principes énoncés par l’organisation. Pour plus d’informations sur la façon de vous impliquer, contactez-nous.
 
 En plus de nos assemblées générales consacrées aux problèmes de justice climatique liés aux sables bitumineux au Canada, JCM compte trois groupes de travail: éducation, action directe et solidarité autochtone. Nous avons aussi un groupe des Jeunes.
 
-## HISTOIRE
+## Histoire
 Justice Climatique Montréal s’est développé en 2009 après Power Shift Canada. Power Shift Canada était un rassemblement national de jeunes activistes canadiens œuvrant dans le domaine des changements climatiques à Ottawa, en Ontario. Après trois jours d’ateliers, de discussions et de manifestations à l’extérieur et à l’intérieur du Parlement, le Contingent de Montréal décidait qu’il était temps d’agir au Québec.
 
 Après un Campement Climatique pour arrêter la construction d’une station de pompage à Dunham, au Québec, CJM est resté en sommeil jusqu’à ce que celui-ci renaisse de ses cendres tel un phénix. Depuis lors, JCM a organisé plusieurs forums et événements communautaires et a co-organisé des événements et plusieurs actions à Montréal et aux alentours.
 
-## PRINCIPES
+## Principes
 ### Approche solidaire
 Nous nous engageons à :
 
