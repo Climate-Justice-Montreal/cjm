@@ -30,7 +30,8 @@ Nous nous engageons à :
 * faire preuve de transparence concernant nos objectifs, nos intérêts et notre processus de prise de décision au sein de ces relations;
 * suivre les directives des communautés touchées et partager le fardeau de leur lutte par le biais d’un travail de soutien qui amplifie leur message et les renforce;
 * considérer et travailler pour le bien-être des communautés touchées en général;
-* être transparent au sujet des critères que nous utilisons pour déterminer avec qui nous travaillons dans une communauté donnée et assumer la responsabilité des effets de nos interventions;
+* être transparent au sujet des critères que nous utilisons pour déterminer avec qui nous travaillons dans une communauté donnée et assumer la responsabilité des effets de nos interventions.
+
 ### Anti-oppression et décolonisation
 Nous nous engageons à :
 
@@ -41,6 +42,7 @@ Nous nous engageons à :
 * créer des espaces inclusifs en soutenant activement et en encourageant une participation égale aux réunions, aux rôles, aux tâches, etc.
 * procéder activement au partage des connaissances et des compétences pour faciliter le partage des rôles;
 * remarquer qui est exclu du groupe, chercher à comprendre pourquoi et prendre les mesures appropriées.
+
 ### Consensus
 Un engagement à :
 

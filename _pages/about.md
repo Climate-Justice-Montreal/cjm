@@ -30,7 +30,9 @@ A commitment to:
 * Taking direction from affected communities and sharing the burden of their struggle through support work that amplifies their message and empowers affected community within
 * Considering and working for the wellbeing of affected communities in general
 * Being transparent about the criteria we use to determine who we work with in a given community, and take responsibility for the effects our interventions have
+
 ### Anti-oppression and decolonization
+
 A commitment to:
 
 * Understanding systemic oppression based on skin colour, ethnicity, class, gender, age, sexuality, ability, illness and mental health.
@@ -40,7 +42,9 @@ A commitment to:
 * Creating inclusive spaces by actively supporting and encouraging equal participation in meetings, roles, tasks etc.
 * Proactively sharing knowledge and skills to facilitate sharing of roles
 * Noticing who is excluded from the group, and seeking to understand why that is and take appropriate action
+
 ### Consensus
+
 A commitment to:
 
 * Ensuring that a decision reflects the input of everyone present
@@ -48,3 +52,4 @@ A commitment to:
 * Addressing power relationships within the group, with a view to equalize them
 * Harnessing the creativity and lived experience of all participants
 * Decentralizing and redistributing leadership roles to everyone in the group
+
