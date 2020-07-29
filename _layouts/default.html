@@ -98,6 +98,8 @@ layout: compress
     {{ content }}
     <br>
 	</div>
+    {% for each in site.data.hero-images %}
+      {% if page.trans == each.trans %}
 <div class="base-wrapper2 wide-p" style="background-image:url('{{ hero-img }}.jpg');">
   <div class="parallax-container">
     <div class="wrapper" >
@@ -105,6 +107,8 @@ layout: compress
     </div>
   </div>
 </div>
+      {% endif %}
+    {% endfor %}
        <!-- Return to top button -->
        <button onclick="topFunction()" onkeypress="topFunction()" aria-label="{% if fr %}Retour en haut{% else %}Return to top{% endif %}" id="myBtn" title="{% if fr %}Retour en haut{% else %}Return to top{% endif %}"><i class="fas fa-arrow-circle-up"></i></button>
 {% if page.trans == "about" or page.trans == "indigenous" or page.trans == "education" or page.trans == "action" %}
