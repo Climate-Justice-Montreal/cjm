@@ -8,7 +8,7 @@ _Posted by subMedia.tv on Monday, November 7, 2016_
 
 Over 1,000 people joined on the streets on November 12, 2016 to stand with Standing Rock, an indigenous community in “North Dakota, USA” that has been fighting to stop an oil pipeline from crossing their territory. The march stopped at several banks that invest in the Dakota Access Pipeline.
 
-![NODAPL demo](/assets/images/NODAPL-demo-1030x686.jpg){: class="img_center100"}
+![NODAPL demo]({{ site_link }}/assets/images/NODAPL-demo-1030x686.jpg){: class="img_center100"}
 
 This is just one of many solidarity actions worldwide to bring attention to the struggle to protect the water and for indigenous sovereignty.
 

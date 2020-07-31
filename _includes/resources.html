@@ -8,7 +8,7 @@
     <h3>{% if fr %}Ressource vedette{% else %}Featured Resource{% endif %}</h3>
     <hr><br>
     <div>
-      <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/file/d/{{ item.gkey }}/view?usp=sharing" target="_blank" rel="noopener">
          {% assign realfile = site_link | append: item.px700 %}
         {% include picture.html basename=realfile type="png" alt=item.name class=img_center %}
       {% comment %}"300" height="700"{% endcomment %}
@@ -65,7 +65,7 @@
     {% for file in site.data.slideshow.files %}
        {% if file.filename == subitem.post %}
     <div>
-      <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/file/d/{{ file.gkey }}/view?usp=sharing" target="_blank" rel="noopener">
          {% assign realfile = site_link | append: file.px300 %}
          {% if file.type == "jpg" %}{% assign realtype = file.type %}{% else %}{% assign realtype = "png" %}{% endif %}
         {% include picture.html basename=realfile type=realtype alt=file.name class=img_center %}

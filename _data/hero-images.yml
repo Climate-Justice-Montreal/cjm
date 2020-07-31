@@ -8,16 +8,33 @@
   alt-fr: Les membres du JCM à une manif
 - trans: action
   img: Action-resist
+  alt-en: Projected Line 9b map
+  alt-fr: Une carte de l'oléoduc ligne 9b
 - trans: education
   img: Education
+  alt-en: Workshop group photo
+  alt-fr: Photo du groupe lors d'un atelier
 - trans: wg
   img: Working-Meeting
+  alt-en: CJM at work!
+  alt-fr: JCM au travail!
 - trans: indigenous
   img: Indigenous-sol
+  alt-en: Land defender signs
+  alt-fr: La défense du territoire
 - trans: covid
   img: Virus
+  alt-en: Virus image
+  alt-fr: Image du virus
 - trans: index
   img: Justice-climatique-pour-tous
+  alt-en: "Lightboard: Justice climatique pour tous!"
+  alt-fr: "Affiche: Justice climatique pour tous!"
 - trans: about
   img: Group-2015-3
-
+  alt-en: CJM group photo from 2015
+  alt-fr: Photo du groupe de 2015
+- trans: news
+  img: Protest-3
+  alt-en: Indigenous protesters
+  alt-fr: Manifestants autochtones

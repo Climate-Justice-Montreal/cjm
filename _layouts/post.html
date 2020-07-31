@@ -2,6 +2,12 @@
 layout: default
 ---
 {% if page.lang == "fr" %}{% assign fr = true %}{% endif %}
+{% for sitey in site.data.jcm.live %}
+  {% assign site_link = sitey.source %}
+  {% assign other_link = sitey.other %}
+  {% assign fr_link = sitey.fr %}
+  {% assign en_link = sitey.en %}
+{% endfor %}
 
 {% comment %}All this code is just to assign the date properly in French{% endcomment %}
   {% if fr %}

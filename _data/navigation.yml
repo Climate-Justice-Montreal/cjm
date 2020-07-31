@@ -14,7 +14,7 @@ en:
     - subtitle: Action & Resistance
       sublink: /wg/action
 #      subicon: <i class="fas fa-universal-access fa-fw"></i>
-- title: Past Events
+- title: Updates
   link: /posts
   icon: <i class='far fa-calendar'></i>
 - title: Donate
@@ -38,7 +38,7 @@ fr:
       sublink: /gt/sinformer
     - subtitle: Action et résistance
       sublink: /gt/résistance
-- title: Événements passés
+- title: Nouvelles
   link: /nouvelles
   icon: <i class='far fa-calendar'></i>
 - title: Donner
@@ -102,9 +102,9 @@ social-media:
 - name: instagram
   icon: <i class="fab fa-instagram"></i>
   link: https://www.instagram.com/justiceclimatiquemtl/
-  color: E1306C
+  color: C13584
   # or 
-  # bg-color: C13584
+  # color: E1306C
 - name: twitter
   icon: <i class="fab fa-twitter"></i>
   link: https://twitter.com/cj_montreal
