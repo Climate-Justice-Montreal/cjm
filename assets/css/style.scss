@@ -550,7 +550,7 @@ input {
   cursor: pointer;
   padding: 11px 15px;
   box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
-  border-radius:50%;
+  //border-radius:50%;
   transition: 0.3s;
    &:hover {
      background-color: $color-1-light;
