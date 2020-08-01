@@ -23,14 +23,14 @@
 </div>
   <div class=right>
 {% for post in posty %}
-  {% for each in post.tags %}{% if each contains page.trans %}{% assign go = true %}{% endif %}{% endfor %}
+  {% for each in post.tags %}{% if each contains page.trans and post.lang == page.lang %}{% assign go = true %}{% endif %}{% endfor %}
     {% if go %}
     {% assign post_counter = post_counter | plus: 1 %}
       {% if post_counter == 1 %}   
         <h3>{% if fr %}Nouvelles{% else %}What's New{% endif %}</h3>
         <hr><br>
       {% endif %}
-      {% if post_counter == 5 %}{% break %}{% endif %}
+      {% if post_counter == 4 %}{% break %}{% endif %}
 
   {% comment %}All this code is just to assign the date properly in French{% endcomment %}
   {% if fr %}
