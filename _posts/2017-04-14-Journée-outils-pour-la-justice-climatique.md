@@ -1,8 +1,8 @@
 ---
-title: Journée d'étude pour la justice climatique
+title: "Justice Climatique: Journée des savoir-faire"
 layout: post
-tags: education
+tags: éducation
 trans: justice-skills-day-2017-04
 lang: fr
 ---
-Téléchargez le [PDF de l'agenda (en anglais)]({{ site_link }}/assets/PDF/PROGRAMME-GUIDE_WEB.pdf)
+Téléchargez le [PDF du programme de la journée (en anglais)]({{ site_link }}/assets/PDF/PROGRAMME-GUIDE_WEB.pdf)

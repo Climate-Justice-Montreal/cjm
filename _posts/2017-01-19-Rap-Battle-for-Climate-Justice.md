@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: education
+trans: rap-battle-2017
 lang: en
 ---
 _Video and Musical credits to Dan Parker ([check out his youtube channel](https://www.youtube.com/channel/UCbSmUmIobOj8aMRTnu4EJYg){: rel="noopener" target="_blank"}.)_

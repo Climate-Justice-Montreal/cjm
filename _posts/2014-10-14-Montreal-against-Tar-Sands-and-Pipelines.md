@@ -2,7 +2,10 @@
 layout: post
 tags: action
 lang: en
+trans: mtl-against-tar-sands-2014
 ---
+
+
 As TransCanada gears up to apply to National Energy Board (NEB), Climate Justice Montreal releases a communique rooted in a climate justice perspective in opposition to tar sands and the TransCanada Energy East pipeline. With a photo symbolizing the direct action that is already taking place along pipeline routes across North America, Montrealers say that oil companies should expect more popular resistance.
 
 TransCanada is expected to submit an application in the very near future to the National Energy Board (NEB) seeking approval for the Energy East pipeline project. This project would convert an existing natural gas pipeline, parts of which are 40+ years old, to a tar sands oil transportation pipeline, and additionally construct new pipeline between Québec and New Brunswick with a port in Cacouna, QC, and a refinery in Saint John, NB. The Energy East pipeline would carry 1.1 million barrels a day of crude tar sands – the dirtiest – oil, which would be the largest tar sands pipeline in the world.
