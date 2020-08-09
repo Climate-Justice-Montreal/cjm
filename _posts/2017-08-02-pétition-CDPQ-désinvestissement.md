@@ -9,4 +9,4 @@ lang: fr
 
 À signer et partager!
 
-![CDPQ à Montréal](/assets/images/CDPQ_Screenshot-from-2017-08-01-11-27-24.png)
+![CDPQ à Montréal]({{ site_link }}/assets/images/CDPQ_Screenshot-from-2017-08-01-11-27-24.png)

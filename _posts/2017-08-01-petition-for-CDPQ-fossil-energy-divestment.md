@@ -9,4 +9,4 @@ Here is a petition asking the Caisse de Dépôt et de Placement du Québec to di
 
 Please [sign](https://www.change.org/p/caisse-de-d%C3%A9p%C3%B4t-et-placement-du-qu%C3%A9bec-cdpq-divest-now){: rel="noopener" target="_blank"} and share!
 
-![CDPQ headquarters in Montréal](/assets/images/CDPQ_Screenshot-from-2017-08-01-11-27-24.png)
+![CDPQ headquarters in Montréal]({{ site_link }}/assets/images/CDPQ_Screenshot-from-2017-08-01-11-27-24.png)
