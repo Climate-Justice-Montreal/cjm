@@ -27,7 +27,7 @@
     {% if go %}
     {% assign post_counter = post_counter | plus: 1 %}
       {% if post_counter == 1 %}   
-        <h3>{% if fr %}Nouvelles{% else %}What's New{% endif %}</h3>
+        <h3><a href="/{% if fr %}nouvelles">Nouvelles{% else %}posts">What's New{% endif %}</a></h3>
         <hr><br>
       {% endif %}
       {% if post_counter == 4 %}{% break %}{% endif %}
