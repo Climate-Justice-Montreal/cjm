@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: education
+tags: éducation
 trans: rap-battle-2017
 title: Rap Battle pour la justice climatique!
 lang: fr

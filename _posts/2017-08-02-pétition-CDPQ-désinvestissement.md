@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pétition pour le désinvestissement de la Caisse de dépôt des énergies fossiles
-tags: CDPQ, climat, Québec, action, indigenous
+tags: CDPQ, climat, Québec, action, autochtone
 trans: cdpq-petition-2017
 lang: fr
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#NODAPL Demo"
-tags: nodapl, action, indigenous
+tags: nodapl, action, autochtone, résistance
 trans: nodapl-demo-2017
 lang: fr
 ---

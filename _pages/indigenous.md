@@ -1,6 +1,7 @@
 ---
 title: Indigenous Solidarity
 lang: en
+gt: autochtone
 trans: indigenous
 permalink: /wg/indigenous
 feat_resource: decolonization-read

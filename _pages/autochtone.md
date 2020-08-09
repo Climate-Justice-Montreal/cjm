@@ -1,6 +1,7 @@
 ---
 title: Solidarité avec les peuples autochtones
 lang: fr
+gt: autochtone
 trans: indigenous
 permalink: /gt/autochtone
 feat_resource: decolonization-read

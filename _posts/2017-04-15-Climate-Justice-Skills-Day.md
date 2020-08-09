@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: education
+tags: education, indigenous
 lang: en
 trans: justice-skills-day-2017-04
 ---

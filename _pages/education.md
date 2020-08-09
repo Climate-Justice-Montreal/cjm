@@ -1,6 +1,7 @@
 ---
 title: Education
 lang: en
+gt: éducation
 trans: education
 permalink: /wg/education
 feat_resource: hoodwinkedv2_WEB

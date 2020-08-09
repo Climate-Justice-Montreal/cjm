@@ -1,6 +1,7 @@
 ---
 title: Action et résistance
 lang: fr
+gt: résistance
 trans: action
 permalink: /gt/résistance
 feat_resource: Line-9-Info-Sheet-Draft-4-WEB

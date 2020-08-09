@@ -1,7 +1,7 @@
 ---
-title: "Justice Climatique: Journée des savoir-faire"
+title: "Justice climatique: journée des savoir-faire"
 layout: post
-tags: éducation
+tags: éducation, autochtone
 trans: justice-skills-day-2017-04
 lang: fr
 ---

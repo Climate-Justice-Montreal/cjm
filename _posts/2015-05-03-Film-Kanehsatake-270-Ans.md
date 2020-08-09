@@ -1,5 +1,5 @@
 ---
-tags: education, autochtone
+tags: éducation, autochtone
 lang: fr
 title: "Kanehsatake: 270 ans de résistance"
 trans: kanehsatake-270-2015

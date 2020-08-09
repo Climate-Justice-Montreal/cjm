@@ -1,7 +1,7 @@
 ---
 lang: fr
 trans: boycott-metro-parc
-title: Boycott metro parc
+title: Boycottons le Metro Parc
 tags: action, résistance, boycott, divest
 ---
 Justice climatique Montréal mène un boycott de l’épicerie Metro située proche du campus de l’université McGill, au coin de l’avenue du Parc et de la rue Prince-Arthur. Un cadre supérieur chez Metro, Maryse Bertrand, encourage l’Université McGill à continuer ses investissements sales dans l’industrie des combustibles fossiles, y compris le charbon, le gaz de schiste et les sables bitumineux.

@@ -1,6 +1,7 @@
 ---
 title: S'informer
 lang: fr
+gt: éducation
 trans: education
 permalink: /gt/sinformer
 feat_resource: hoodwinkedv2_WEB
