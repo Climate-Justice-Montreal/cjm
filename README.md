@@ -35,6 +35,7 @@ In order to create a new post, follow these steps.
 3. Click on ```Create new file```.
 4. Name the file, beginning with the date, in this format: ```YYYY-MM-DD-your-title.md```. For instance, you could name a post ```2020-05-24-hello-world.md```. 
 5. Copy and paste the front matter below. This front matter is explained in detail in this README, but all you need to do is copy and paste this at the tippy top of your file:
+6. If the post has a translated version, be sure to keep both the English _and_ French versions in both the CJM and the JCM repositories. The automated translation system needs all translated posts and pages to be within both repositories.
 ```
 --- 
 title: Introduction to CJM
@@ -162,6 +163,8 @@ trans: covid   (<--- This a codeword that helps the system find a translation fo
 
 For the automatic translation linking system (the link in the navigation between English and French content) to work properly, you just need to properly indicate in the "front matter" the ```lang:``` (```en``` or ```fr```) and make up a unique translation code (for instance, ```veryuniquecode```) and put it after ```trans: ``` like this: ```trans: veryuniquecode```. You can see above that I set one COVID page ```lang``` to ```fr``` and the other one to ```en``` and then I set both ```trans:``` to ```covid```. If you look on the website, a link will be created that will connect the two pages. If you have any doubts whether that code has already been used, then use something more unique or else look at the [site health page](/health.html), which lists all the current ```lang``` and ```trans``` codes in use for every single page and post.
 
+Be sure to put a copy of all English and French posts within both CJM and JCM repositories, or else the automated translation linking system will break.
+
 # Changing colours, finding old drafts, and site alerts
 
 Otherwise, theme and site colors can be changed from [```_sass/_colors.scss```](/blob/master/_sass/_colors.scss).
@@ -184,6 +187,8 @@ alert_pages:
 To create or edit the alert text itself, go to ```_include/alert/```. You can either change the text of the current file (as indicated by ```redalert_en-text``` in English and ```redalert_fr-text``` in French). Or make a new file within ```_include/alert/``` and point ```_config.yml```. For instance, create a new file at ```_includes/alert/newfile.md``` and then change ```redalert_en-text: alert/newfile.md```. 
 
 To change the alert color, go to ```_sass/colors.scss``` and change ```$redalert-color:``` to anything you like and all of this applies to ```greenalert``` the same way.
+
+Be sure to change these files in both the CJM and JCM repositories.
 
 # Adding images
 
@@ -209,6 +214,8 @@ Note two complicating factors, however:
 2. To make the page load faster, instead of serving the FontAwesome css file ```/assets/css/all.css``` I just copied the codes I needed and put them into ```/assets/css/fa-custom.scss```. So if you want to add new icons that I'm not already using but that are in the Fontawesome5 icon set, you can either:
   * Follow the instructions in [```/_layouts/default.html```](/blob/master/_layouts/default.html) and comment and uncomment out the line in the instructions. You can find the instructions by searching for the word FontAwesome.
 
+These files only exist in the CJM repository. The French JCM one just borrows them from that repo.
+
 ## How to change the youtube video and google maps directions
 
 The layout for these files is in the ```_includes``` folder, for instance: ```_includes/yt_embed.html``` and ```_includes/directions.html```. Just change the links in the file near the text ```src=``` and ```href=``` and you should be able to update these without too much trouble. For instance, the current YouTube link is ```https://www.youtube.com/embed/hxjH4sa2RFI?autoplay=1```. If we want to change it, just change the link, for instance to ```https://www.youtube.com/embed/nUxC_yr4RRs?autoplay=1```. 
@@ -226,17 +233,6 @@ Note too that there is an image carousel in the sandbox page. That can be insert
   - page_trans: about
    media: slideshow.html
 ```
-
-The images and descriptions for the image carousel are in ```_data/slideshow.yml``` and it should be fairly straightforward to change the images and descriptions through that document. For instance the first lines are:
-
-```
-slideshow1:
-- title: Our historic meetinghouse on de Maisonneuve
-  titre-fr: Notre chez nous sur la rue Maisonneuve pendant les années 1970
-  file: 1974 MaisW (1).JPG
-```
-
-```title``` and ```titre-fr``` means the image description that appears below the image in the slideshow. ```file``` refers to which image in [```assets/images```](/tree/master/assets/images) that should appear in the slideshow.
 
 ## Inserting images
 
@@ -318,9 +314,9 @@ Also, if making even more advanced changes than anything contained in this READM
 
 # Updating the website version of Jekyll
 
-Right now, Wordpress is constantly emailing me with updates to plugins, and even Wordpress itself. Every update could potentially break our site as it becomes incompatible with certain plugins. True, right now we pay someone to fix our messes for us. Meanwhile, hackers are throwing tons of password combinations at our Wordpress login page all the time, and who knows what could happen unless we update constantly. We also need constant backups. By comparison, let's see here, [Jekyll 4.0](https://jekyllrb.com/docs/history/) came out in August 2019, and as of April, 2020 has had zero updates; there seems to be maybe one minor security fix per year, half of them don't apply. Oh and Github backs up automatically for us.
+Right now, Wordpress is constantly emailing me with updates to plugins, and even Wordpress itself. Every update could potentially break our site as it becomes incompatible with certain plugins. Meanwhile, hackers are throwing tons of password combinations at our Wordpress login page all the time. We also need constant backups. By comparison, let's see here, [Jekyll 4.0](https://jekyllrb.com/docs/history/) came out in August 2019, and as of April, 2020 has had zero updates; there seems to be maybe one minor security fix per year, half of them don't apply. Oh and Github backs up automatically for us.
 
-Anyway, at some point, GitHub may send us an email saying that we need to update our website. The email will contain instructions and all that. Most updates will happen automatically without any intervention, because this site essentially uses zero plugins. But anyway, worst case scenario, if we need to do an update, it will involve editing the file ```Gemfile.lock``` and simply changing the numbers to whatever GitHub's email tells you to change them to. For instance, it might say to change ```jekyll (4.0.0)``` to ```jekyll (4.1.0)```. Do this and the update is complete. Try the website and see if anything is broken, but probably everything will be fine. If it's broken, perhaps just downgrade Jekyll (a.k.a. back to 4.0.0) see if someone technical can fix it by reading Jekyll's release notes. Worst case scenario, we'll probably be fine just ignoring the update or could pay someone to figure it out.
+Anyway, at some point, GitHub may send us an email saying that we need to update our website. The email will contain instructions and all that. Most updates will happen automatically without any intervention, because this site essentially uses zero plugins. But anyway, worst case scenario, if we need to do an update, it will involve editing the file ```Gemfile.lock``` and simply changing the numbers to whatever GitHub's email tells you to change them to. For instance, it might say to change ```jekyll (4.0.0)``` to ```jekyll (4.1.0)```. Do this and the update is complete. In fact, right now, we don't even have a Gemfile.lock, so Github should update for us. Try the website and see if anything is broken, but probably everything will be fine. If it's broken, perhaps just downgrade Jekyll (a.k.a. back to 4.0.0) see if someone technical can fix it by reading Jekyll's release notes. Worst case scenario, we'll probably be fine just ignoring the update or could pay someone to figure it out.
 
 # This site vs. Wordpress
 Making changes will take a bit of time to learn, but it's not tons more complicated than Wordpress, which does offer a graphical interface, but good luck finding what you want and then learning to operate it within the dozens of options and plugins. Also, in terms of multilingual functionality, Wordpress is pretty good but it is still work to get translations to link. I would need to teach the next person something; it is not instantly intuitive. Also, the final product isn't as good -- I haven't been able to figure out how to get the headers and all the menus to translate automatically. Basically, it would take specialized knowledge to change the architecture of the Wordpress site anyway, so why not just make a better structure within which to easily make the minor everyday changes we need. This structure also makes it easier to have a written README that anyone can access, anyone can learn anytime about how to make changes, and anyone can suggest improvements by proposing a pull request.
