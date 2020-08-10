@@ -45,7 +45,7 @@ fr:
   link: /don
   icon: <i class='fas fa-coins'></i>
 - title: Contact
-  link: /contact-fr
+  link: /contact
   icon: <i class='far fa-envelope-open'></i>
 
 welcome:
