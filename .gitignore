@@ -11,9 +11,5 @@ notes/
 .git/
 .sass-cache
 .jekyll-metadata
-vendor
-vendor/
 .ruby-version
-_includes/jcm.md
-_includes/cjm.md
 .gitlab-ci.yml
