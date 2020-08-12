@@ -13,9 +13,8 @@ cache:
 
 before_script:
   - gem install bundler
-  #- bundle package --all
   - bundle config set path 'vendor/bundle'
-
+  - bundle install
 
 test:
   stage: test
