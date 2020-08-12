@@ -4,19 +4,11 @@ layout: redirect
 	{% for each in site.data.jcm.live %}
 	[Home]({{ each.en }}/home)
 <script type="text/javascript">
-<<<<<<< HEAD
 if (window.location == "{{ each.en }}") {
 	window.location.replace("{{ each.en }}/home");
 }
 if (window.location == "{{ each.fr }}") {
 	window.location.replace("{{ each.fr }}/accueil");
-=======
-if (window.location == "https://cjm.summerhays.net/") {
-	window.location.replace("https://cjm.summerhays.net/home");
-}
-if (window.location == "https://jcmtlfr.summerhays.net/") {
-	window.location.replace("https://jcm.summerhays.net/accueil");
->>>>>>> 61b954cd3599c3aa35c2b5e59ca02490ad6074c8
 }
     {% endfor %}
 if (window.location == "http://localhost:4000/") {
