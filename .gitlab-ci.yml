@@ -9,6 +9,7 @@ variables:
 
 before_script:
   - gem install bundler
+  - bundle config --global path vendor/bundler
   - bundle package --all
   # install --local
 
