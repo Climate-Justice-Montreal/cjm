@@ -10,5 +10,4 @@ notes/
 .sass-cache
 .jekyll-metadata
 .ruby-version
-_data/jcm.yml
 vendor/
