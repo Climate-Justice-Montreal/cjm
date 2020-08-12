@@ -10,89 +10,25 @@ layout: compress
 {% endfor %}
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <!-- Preload some files and fonts to improve page load speed -->
-  <link rel="preload" href="{{ site_link }}/assets/css/navstyle.css" as="style">
-  <link rel="preload" href="{{ site_link }}/assets/css/style.css" as="style">
-  <link rel="preload" href="{{ site_link }}/assets/css/fa-custom.css" as="style">
-   <!-- <link rel="preload" href="{{ site_link }}/assets/images{{ hero-image }}.jpg" as="jpg">
- <link rel="preload" href="{{ site_link }}/assets/google_fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin> -->
-  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Bitter/Bitter-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Black.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="{{ site_link }}/assets/google_fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf" as="font" type="font/ttf" crossorigin>
-  <meta name="description" content="{{ site.title}}">
-  <meta name="keywords" content="{{ site.keywords}}">
-  <meta name="author" content="{{ site.title}}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#01579B">
-  <html lang="{{ page.lang | default: 'en' }}">
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/fa-custom.css">
-  {% comment %}If you want to add FontAwesome 5 icons, comment out the line above by putting it between symbols <!-- --> like this "<!-- <link rel="stylesheet" href="/assets/css/fa-custom.css"> --> and uncomment the line the line below by removing those same symbols (<!-- and -->){% endcomment %}
-  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/css/all.css"> -->
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/style.css">
-  {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="{{ site_link }}/assets/css/grid.css">{% endif %}
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/navstyle.css">
-  <link rel="preload" href="{{ site_link }}/assets/js/navigation.js" as="js" crossorigin>
-  <link rel="icon" type="image/png" href="{{ site_link }}/assets/images/favicon.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="{{ site_link }}/assets/images/favicon.png">
-  <link rel="manifest" href="/manifest{% if fr %}-fr{% endif %}.webmanifest">
-  {% comment %}{% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
-  {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}{% endcomment %}
-  {% comment %}Default title in English but in French too{% endcomment %}
-  <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>
-  <! -- search header -->
-  {% if page.tipue_search_active or layout.tipue_search_active %}
-  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_content.js"></script>
-    <link rel="stylesheet" href="{{ site_link }}/assets/tipuesearch/css/tipuesearch.css">
-    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_set.js"></script>
-    <script src="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch.min.js"></script>
-{% endif %}
-</head>
+
+{% include head.html %}
 
 <body>
  <nav>
-	 {% comment %}This inserts the code for the navigation{% endcomment %}
-   {% include datanavigation.html %}
+   {% include navigation.html %}
    <div class="container-alert">
-   {% if page.trans == "quebec" %}{% include breadcrumbs.html %}{% endif %}
-   {% comment %}Turn alerts on and off using _config.yml, see the README{% endcomment %}
-   {% include alert/alertcode.html %}
+	   {% comment %}Turn on breadcrumb navigation for certain pages{% endcomment %}
+     {% if page.trans == "quebec" %}{% include breadcrumbs.html %}{% endif %}
+
+     {% comment %}Turn alerts on and off using _config.yml, see the README{% endcomment %}
+     {% include alert/alertcode.html %}
    </div>
 </nav>
-	{% comment %}These are the headers, which are included only if the page has them. There's a weird bug for the homepage that forces it to have a title, thus the unless statement...{% endcomment %}
-  <header>
-    {% for each in site.data.hero-images %}
-      {% if page.trans == each.trans %}
-{% assign hero-img = site_link | append: "/assets/images/" | append: each.img %}{% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
 
-<div class="base-wrapper narrow-p" style="background-image:url('{{ hero-img }}450.jpg');">
-  <div class="parallax-container">
-    <div class="wrapper" >
-            {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
-      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
-    </div>
-  </div>
-</div>
-<div class="base-wrapper wide-p" style="background-image:url('{{ hero-img }}.jpg');">
-  <div class="parallax-container">
-    <div class="wrapper" >
-      {% unless page.trans == "index" %}{% if page.title %} <h1 class="header foreground__image">{{ page.title }}</h1>{% endif %}
-      {% if page.description %}<h2 class="header middle__image">{{ page.description }}</h2>{% endif %}{% endunless %}
-    </div>
-  </div>
-</div>
-      {% endif %}
-    {% endfor %}
-  </header>
-   <main>
-	<br>
+{% include header.html %}
+
+<main>
+ <br>
 <article class="container-content">
 	<div class="content">
     {{ content }}
