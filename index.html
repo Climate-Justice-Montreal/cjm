@@ -1,10 +1,16 @@
+---
+layout: redirect
+---
+	{% for each in site.data.jcm.live %}
+	[Home]({{ each.en }}/home)
 <script type="text/javascript">
-if (window.location == "https://cjmtl.summerhays.net/") {
-	window.location.replace("https://cjmtl.summerhays.net/home");
+if (window.location == "{{ each.en }}") {
+	window.location.replace("{{ each.en }}/home");
 }
-if (window.location == "https://jcmtlfr.summerhays.net/") {
-	window.location.replace("https://jcmtlfr.summerhays.net/accueil");
+if (window.location == "{{ each.fr }}") {
+	window.location.replace("{{ each.fr }}/accueil");
 }
+    {% endfor %}
 if (window.location == "http://localhost:4000/") {
 	window.location.replace("http://localhost:4000/home");
 }

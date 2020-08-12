@@ -10,5 +10,6 @@
 </head>
 <body>
 	<p>{% if page.lang == "fr" %}Si votre navigateur ne vous redirige pas, suivez <a href='{{ page.redirect }}'>ce lien{% else %}If you are not redirected automatically, follow <a href='{{ page.redirect }}'>this link{% endif %}</a></p>.
+		{{ content }}
 </body>
 </html>
