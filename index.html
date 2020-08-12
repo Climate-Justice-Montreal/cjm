@@ -1,8 +1,5 @@
----
-layout: redirect
----
 	{% for each in site.data.jcm.live %}
-	[Home]({{ each.en }}/home)
+If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>
 <script type="text/javascript">
 if (window.location == "{{ each.en }}") {
 	window.location.replace("{{ each.en }}/home");
