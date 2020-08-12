@@ -9,8 +9,8 @@ variables:
 
 before_script:
   - gem install bundler
-  - bundle package --all
-  # install --local
+  #- bundle package --all
+  - bundle install --local
 
 test:
   stage: test
