@@ -16,10 +16,10 @@ document.write(window.location);
 </script>
 <h4> Direct to </h4>
 <script type="text/javascript">
-	if (window.location == "{{ each.en }}") {
+	if (window.location == "{{ each.en }}/") {
         document.write("{{ each.en }}/home");
 }
-if (window.location == "{{ each.fr }}") {
+if (window.location == "{{ each.fr }}/") {
         document.write("{{ each.fr }}/accueil");
 }
 </script>
@@ -27,10 +27,10 @@ if (window.location == "{{ each.fr }}") {
 If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>
 </body>
 <script type="text/javascript">
-if (window.location == "{{ each.en }}") {
+if (window.location == "{{ each.en }}/") {
 	window.location.replace("{{ each.en }}/home");
 }
-if (window.location == "{{ each.fr }}") {
+if (window.location == "{{ each.fr }}/") {
 	window.location.replace("{{ each.fr }}/accueil");
 }
     {% endfor %}
