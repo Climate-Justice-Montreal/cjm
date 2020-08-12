@@ -25,14 +25,14 @@ Are we missing something? [Let us know](/contact)!
 
 Here you will find everything we think you might need to take action in your neighborhood!
 
-A hardcopy of the petition to print off [here]({{ site_link }}/assets/PDF/Resources/petition-hardcopy.pdf)
+A hardcopy of the petition to print off [here](/assets/PDF/Resources/petition-hardcopy.pdf)
 
-Organize a day of canvassing in your neighborhood with our No Line 9 Resolution pamphlet. Print version [here]({{ site_link }}/assets/PDF/Resources/Line-9-Info-Sheet-Draft-4-PRINT.pdf)
+Organize a day of canvassing in your neighborhood with our No Line 9 Resolution pamphlet. Print version [here](/assets/PDF/Resources/Line-9-Info-Sheet-Draft-4-PRINT.pdf)
 
-Use sample resolutions in a lobby kit to show Councillors and potential Groups or Organizations who may endorse the campaign that we are not alone! [Portland, Maine]({{ site_link }}/assets/PDF/Resources/Portland-Resolution.pdf) and [Bellingham, Washington]({{ site_link }}/assets/PDF/Resources/Bellingham-resolution.pdf)
+Use sample resolutions in a lobby kit to show Councillors and potential Groups or Organizations who may endorse the campaign that we are not alone! [Portland, Maine](/assets/PDF/Resources/Portland-Resolution.pdf) and [Bellingham, Washington](/assets/PDF/Resources/Bellingham-resolution.pdf)
 
-Use our draft resolution to explain exactly what it is we want and why! [City Resolution]({{ site_link }}/assets/PDF/Resources/Tar-Sands-Resolution-for-Montreal-final.pdf)
+Use our draft resolution to explain exactly what it is we want and why! [City Resolution](/assets/PDF/Resources/Tar-Sands-Resolution-for-Montreal-final.pdf)
 
-Here is a [pdf version of the website #Directly Affected]({{ site_link }}/assets/PDF/Resources/Directementtouche.pdf). Use it to show visually  that people care, and for many different reasons! Encourage people to make their own!
+Here is a [pdf version of the website #Directly Affected](/assets/PDF/Resources/Directementtouche.pdf). Use it to show visually  that people care, and for many different reasons! Encourage people to make their own!
 
 Encourage endorsements from groups and organisations of all kinds, and we will list them on our site. If they link to our petition, we will link to their site! Together, we can take a stand!
