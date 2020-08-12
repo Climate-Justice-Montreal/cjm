@@ -21,7 +21,7 @@ en:
   link: /donate
   icon: <i class='fas fa-coins'></i>
 - title: Contact
-  link: /contact
+  link: /contact-en
   icon: <i class='far fa-envelope-open'></i>
 
 fr:
@@ -45,7 +45,7 @@ fr:
   link: /don
   icon: <i class='fas fa-coins'></i>
 - title: Contact
-  link: /contact
+  link: /contact-fr
   icon: <i class='far fa-envelope-open'></i>
 
 welcome:
@@ -64,7 +64,7 @@ footer-en:
 - title: About
   link: /about
 - title: Contact
-  link: /contact
+  link: /contact-en
 
 footer-fr:
 - title: Accueil

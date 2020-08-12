@@ -16,3 +16,4 @@ vendor/
 .ruby-version
 _includes/jcm.md
 _includes/cjm.md
+.gitlab-ci.yml
