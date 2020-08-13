@@ -26,14 +26,22 @@
   img: Virus
   alt-en: Virus image
   alt-fr: Image du virus
+  #- trans: index
+  #  img: lightboard1
+  #  alt-en: "Lightboard: Justice climatique pour tous!"
+  #  alt-fr: "Affiche: Justice climatique pour tous!"
 - trans: index
   img: Justice-climatique-pour-tous
   alt-en: "Lightboard: Justice climatique pour tous!"
   alt-fr: "Affiche: Justice climatique pour tous!"
 - trans: about
-  img: Group-2015-3
+  img: ourtime1
   alt-en: CJM group photo from 2015
   alt-fr: Photo du groupe de 2015
+  #- trans: about
+  #  img: Group-2015-3
+  #  alt-en: CJM group photo from 2015
+  #  alt-fr: Photo du groupe de 2015
 - trans: news
   img: Protest-3
   alt-en: Indigenous protesters
