@@ -14,7 +14,7 @@ Join us in raising awareness of and solutions to these issues, while asking City
 
 Sign the petition [here](https://www.change.org/petitions/montreal-city-council-adopt-a-resolution-against-importation-of-alberta-tar-sands-oil){: rel="noopener" target="_blank"}!
 
-Start talking to councillors and groups in [your borough](http://en.wikipedia.org/wiki/Boroughs_of_Montreal){: rel="noopener" target="_blank"}! Full action kit below!
+Start talking to councillors and groups in [your borough](https://en.wikipedia.org/wiki/Boroughs_of_Montreal){: rel="noopener" target="_blank"}! Full action kit below!
 
 Express how you are [#DirectlyAffected](https://directementtouche.tumblr.com/){: rel="noopener" target="_blank"}
 

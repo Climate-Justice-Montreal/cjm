@@ -15,4 +15,4 @@ This is just one of many solidarity actions worldwide to bring attention to the 
 
 > Montreal #NoDAPL Solidarity Over 1 thousand people Invaded the streets to stand with Standing Rock, An indigenous community in “North Dakota, USA” That has been fighting to stop an oil pipeline from crossing their territory. The march stopped at several banks that invest in the Dakota Access Pipeline.
 
-Learn more about this struggle: [Red Warrior Camp](http://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"} and [Sacred Stone Camp](http://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"}
+Learn more about this struggle: [Red Warrior Camp](https://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"} and [Sacred Stone Camp](https://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"}

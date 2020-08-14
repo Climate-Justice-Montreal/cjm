@@ -3,7 +3,7 @@ title: <i class="fas fa-pencil-alt shake-tl"></i>&nbsp; Contact Us
 lang: en
 trans: contact
 ---
-To receive occasional emails from Climate Justice Montreal [subscribe here](http://eepurl.com/cyizZD){: rel="noopener" target="_blank"}.
+To receive occasional emails from Climate Justice Montreal [subscribe here](https://eepurl.com/cyizZD){: rel="noopener" target="_blank"}.
 
 You can also get updates from us through our [Facebook page](https://www.facebook.com/ClimateJusticeMontreal){: rel="noopener" target="_blank"}.
 

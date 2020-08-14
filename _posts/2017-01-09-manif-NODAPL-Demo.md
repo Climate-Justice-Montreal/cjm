@@ -14,4 +14,4 @@ La marche s’est arrêtée à des banques installées à Montréal qui investis
 
 Ce n'est qu'une des nombreuses actions de solidarité menées dans le monde pour attirer l'attention sur cette lutte pour la protection de l'eau et pour la souveraineté autochtone.
 
-Pour en savoir plus sur cette lutte:  [Red Warrior Camp](http://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"} et [Sacred Stone Camp](http://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"}
+Pour en savoir plus sur cette lutte:  [Red Warrior Camp](https://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"} et [Sacred Stone Camp](https://facebook.com/RedWarriorCamp){: rel="noopener" target="_blank"}
