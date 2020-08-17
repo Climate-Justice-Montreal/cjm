@@ -16,7 +16,7 @@ $verynarrow: {{ site.verynarrow }};
 #social-media {
   display: flex;
   justify-content: flex-end;
-  padding: 0px 10px;
+//  padding: 0px 10px;
   a {
     color: $header-colour;
     padding: 5px 10px;
@@ -28,6 +28,10 @@ $verynarrow: {{ site.verynarrow }};
           background-color: #{{ each.color }};
         }
       {% endfor %}
+      &#response {
+        background-color: #000000;
+        cursor: pointer;
+      }
     }
     p {
       margin: 0;
@@ -47,7 +51,7 @@ a.sm-link:not(:first-child) {
   z-index: 500;
   width:100%;
   font-family: $font-sans;
-  font-weight: bold;
+//  font-weight: bold;
   #response {cursor:pointer}
   a,#response,button,.search-container {
     display: block;
@@ -56,7 +60,7 @@ a.sm-link:not(:first-child) {
     text-align: center;
     font-family: $font-sans;
     font-size: $nav-font-size;
-    font-weight: bold;
+ //   font-weight: bold;
     white-space: nowrap;
   }
   a {
@@ -66,7 +70,7 @@ a.sm-link:not(:first-child) {
     }
     &:hover {
       background-color: $color-1-dark;
-      color: $nav-color-text;
+      color: white;
     }
   }
   .icon {
@@ -125,7 +129,7 @@ a.sm-link:not(:first-child) {
         size: $nav-font-size;
         family: $font-sans;
         family: inherit;
-        weight: bold;
+        //weight: bold;
       }
       padding: 14px 9px;
       background-color: inherit;

@@ -11,3 +11,6 @@ notes/
 .jekyll-metadata
 .ruby-version
 vendor/
+Gemfile
+Gemfile.lock
+_data/jcm.yml
