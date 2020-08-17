@@ -1,5 +1,5 @@
 ---
-title: "Suivre l'$$$: boycottons l'Épicerie Metro"
+title: "Suivre l'argent"
 lang: fr
 trans: followcash
 permalink: /campagnes/suivre-largent
