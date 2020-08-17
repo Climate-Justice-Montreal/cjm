@@ -8,7 +8,26 @@
 {% if fr %}{% assign trans_link = en_link %}{% else %}{% assign trans_link = fr_link %}{% endif %}
 
   <!-- this header vanishes on small screens. I use liquid code to change the language of the header depending on the page language -->
-    <div id="social-media">{% for each in site.data.navigation.social-media %}<a class="sm-link" href="{{ each.link }}" id="{{ each.name }}" aria-label="{{ each.name }}" target="blank" rel="noopener"><p>{{ each.icon }}</p></a>{% endfor %}</div>
+    <div id="social-media">{% for each in site.data.navigation.social-media %}<a class="sm-link" href="{{ each.link }}" id="{{ each.name }}" aria-label="{{ each.name }}" target="blank" rel="noopener"><p>{{ each.icon }}</p></a>{% endfor %}
+  <!-- Language changer button -->
+  {% if page.trans %}
+  {% if fr %}{% assign otherlang = "en" %}{% elsif page.lang == "en" %}{% assign otherlang = "fr" %}{% endif %}
+  {% assign otherurl = nil %}
+	{% for each in site.pages %}
+        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
+        {% endfor %}
+  {% unless otherurl %}
+	{% for each in site.posts %}
+        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
+	{% endfor %}
+  {% endunless %}
+  {% if otherurl %}
+			     <!-- language changer button, which flip animation -->
+  <a class="sm-link" id="response" title="{% if fr %}View this page in English{% elsif page.lang == "en" %}Voir cette page en français{% endif %}" onclick="flipIcon()"><i id="flippy" class="fas fa-random"></i>&nbsp; {% if fr %}English{% elsif page.lang == "en" %}Français{% endif %}</a>
+  <a href="{{ trans_link }}{{ otherurl }}" id="flippy2" {% if page.trans == "search" %}class="searchy" {% endif %}style="display: none;"></a>
+  {% endif %}
+  {% endif %}
+</div>
     <div id="wideheader">
   <!-- I put a few animations in for specific pages, just to make the site a bit more playful -->
      <div style="overflow: hidden;">
@@ -52,24 +71,6 @@
 		<a href="{{ item.link }}" {% if item.hovertitle %}title="{{ item.hovertitle }}"{% endif %} {% if item.link == page.url %}class="active"{% endif %}>{{ item.title }} &nbsp;{{ item.icon }}</a>
 		{% endif %}
   {% endfor %}
-  <!-- Language changer button -->
-  {% if page.trans %}
-  {% if fr %}{% assign otherlang = "en" %}{% elsif page.lang == "en" %}{% assign otherlang = "fr" %}{% endif %}
-  {% assign otherurl = nil %}
-	{% for each in site.pages %}
-        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
-        {% endfor %}
-  {% unless otherurl %}
-	{% for each in site.posts %}
-        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
-	{% endfor %}
-  {% endunless %}
-  {% if otherurl %}
-			     <!-- language changer button, which flip animation -->
-  <a class="icon" id="response" title="{% if fr %}View this page in English{% elsif page.lang == "en" %}Voir cette page en français{% endif %}"onclick="flipIcon()">{% if fr %}English{% elsif page.lang == "en" %}Français{% endif %} &nbsp;<i id="flippy" class="fas fa-random"></i></a>
-  <a href="{{ trans_link }}{{ otherurl }}" id="flippy2" {% if page.trans == "search" %}class="searchy" {% endif %}style="display: none;"></a>
-  {% endif %}
-  {% endif %}
   <div class="search-container">
 	    <button title="{% if fr %}Ouvrir le champ de recherche{% else %}Search open{% endif %}" aria-label="{% if fr %}Ouvrir le champ de recherche {% else %}Search tray open{% endif %}" id="unfold" class="show" onkeypress="unfoldSearch()" onclick="unfoldSearch()"><i class="fas fa-search"></i></button>
 	  <form id="formy" title="{% if fr %}Formulaire de recherche{% else %}Search form{% endif %}" aria-label="{% if fr %}Formulaire de recherche{% else %}Search form{% endif %}class="" action="/search-{% if fr %}fr{% else %}en{% endif %}">

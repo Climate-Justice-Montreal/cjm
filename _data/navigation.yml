@@ -4,7 +4,7 @@ en:
   link: /about
 #  icon: <i class="far fa-hand-paper"></i>
   icon: <i class='far fa-address-card'></i>
-- title: Working Groups
+- title: What We Do
   icon: <i class='fas fa-pencil-alt'></i>
   submenu:
     - subtitle: Indigenous Solidarity
@@ -14,12 +14,16 @@ en:
     - subtitle: Action & Resistance
       sublink: /wg/action
 #      subicon: <i class="fas fa-universal-access fa-fw"></i>
+- title: Campaigns
+  icon: <i class="fas fa-arrow-circle-right fa-fw"></i>
+  submenu:
+    - subtitle: Follow the money
+      sublink: /campaigns/follow-the-money
+    - subtitle: Just Recovery
+      sublink: /campaigns/just-recovery
 - title: Updates
   link: /posts
   icon: <i class='far fa-calendar'></i>
-- title: Donate
-  link: /donate
-  icon: <i class='fas fa-coins'></i>
 - title: Contact
   link: /contact-en
   icon: <i class='far fa-envelope-open'></i>
@@ -29,7 +33,7 @@ fr:
 #  icon: <i class="far fa-hand-paper"></i>
   link: /a_propos
   icon: <i class='far fa-address-card'></i>
-- title: Groupes de travail
+- title: Nos activités
   icon: <i class='fas fa-pencil-alt'></i>
   submenu:
     - subtitle: Solidarité avec les peuples autochtones
@@ -38,12 +42,16 @@ fr:
       sublink: /gt/sinformer
     - subtitle: Action et résistance
       sublink: /gt/résistance
+- title: Campagnes
+  icon: <i class="fas fa-arrow-circle-right fa-fw"></i>
+  submenu:
+    - subtitle: Suivre $$$
+      sublink: /campagnes/suivre-largent
+    - subtitle: Relance verte
+      sublink: /campagnes/relance-verte
 - title: Nouvelles
   link: /nouvelles
   icon: <i class='far fa-calendar'></i>
-- title: Donner
-  link: /don
-  icon: <i class='fas fa-coins'></i>
 - title: Contact
   link: /contact-fr
   icon: <i class='far fa-envelope-open'></i>
@@ -60,7 +68,7 @@ footer-en:
 - title: Home
   link: /home
 - title: Accueil
-  link: https://jcmtlfr.summerhays.net/accueil
+  link: https://jcm.summerhays.net/accueil
 - title: About
   link: /about
 - title: Contact
@@ -70,7 +78,7 @@ footer-fr:
 - title: Accueil
   link: /accueil
 - title: Home
-  link: https://cjmtl.summerhays.net/home
+  link: https://cjm.summerhays.net/home
 - title: À propos
   link: /a_propos
 - title: Contact
@@ -113,3 +121,7 @@ social-media:
   icon: <i class="fab fa-facebook-f"></i>
   link: https://facebook.com/ClimateJusticeMontreal
   color: 3b5998
+- name: email
+  icon: <i class='far fa-envelope-open'></i>
+  link: mailto:justiceclimatiquemtl@gmail.com
+  color: D44638
