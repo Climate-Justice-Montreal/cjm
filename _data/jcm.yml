@@ -1,0 +1,13 @@
+- source:
+  other: https://jcm.summerhays.net
+  en: https://cjm.summerhays.net
+  fr: https://jcm.summerhays.net
+  live: https://climatejusticemontreal.ca
+  live-other: https://climatejusticemontreal.ca
+dead:
+- source:
+  other: https://jcmhub.summerhays.net
+  en: https://cjmhub.summerhays.net
+  fr: https://jcmhub.summerhays.net
+  live: https://climatejusticemontreal.ca
+  live-other: https://climatejusticemontreal.ca
