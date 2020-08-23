@@ -1,14 +1,14 @@
 live:
-- source:
-  other: 
-  en: 
-  fr:
-  live-en: https://climatejusticemontreal.ca
-  live-fr: https://justiceclimatiquemontreal.ca
-dead:
-- source:
+- source: https://cjm.summerhays.net
   other: https://jcm.summerhays.net
   en: https://cjm.summerhays.net
   fr: https://jcm.summerhays.net
-  live-en: https://climatejusticemontreal.ca
-  live-fr: https://justiceclimatiquemontreal.ca
+  live: https://climatejusticemontreal.ca
+  live-other: https://climatejusticemontreal.ca
+dead:
+- source: https://cjm.summerhays.net
+  other: https://jcm.summerhays.net
+  en: https://cjm.summerhays.net
+  fr: https://jcm.summerhays.net
+  live: https://climatejusticemontreal.ca
+  live-other: https://climatejusticemontreal.ca

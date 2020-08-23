@@ -238,6 +238,8 @@ Note too that there is an image carousel in the sandbox page. That can be insert
 
 The hero images are all in ```_data/hero-images.yml``` for each page. All the featured resources can be changed on the pages, and the resources at the bottom changed through ```_data/slideshow.yml```. The posts just display the latest four posts.
 
+Also, for all of these hero images, there is another version that is 450 pixels wide that is the same filename ending in 450, like ```this.jpg``` and ```this450.jpg```. This is necessary for the parallax effect to work.
+
 As mentioned in the markdown, images can be inserted via ```![](/link/to/image.jpg)```. That said, by default, images will appear on the left, and generally you will want to size and center them. The very, very advanced way to do this is to write your own CSS in ```/assets/css/style.css```, but I might as well mention the shortcuts I generated in making this site, namely a few classes you can add to the image. I'll show you an example.
 
 Let's say you want to call up [```/assets/images/claires_painting.jpg```](/blob/master/assets/images/claires_painting.jpg). If you want it centered and half-size, call the image using ```![Art retreat](/assets/images/claires_painting.jpg){: class="img_center50"}``` and you'll get:

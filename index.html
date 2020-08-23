@@ -11,14 +11,14 @@
 	{% for each in site.data.jcm.live %}
 	{% comment %}<p>If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a></p>{% endcomment %}
 </body>
-<script type="text/javascript">
+<script>
 if (window.location == "{{ each.en }}/" || window.location == "{{ each.en }}/index" || window.location == "{{ each.en }}/index.html") {
 	window.location.replace("{{ each.en }}/home");
 }
 if (window.location == "{{ each.fr }}/" || window.location == "{{ each.fr }}/index" || window.location == "{{ each.fr }}/index.html") {
 	window.location.replace("{{ each.fr }}/accueil");
 }
-    {% endfor %}
+    {% break %}{% endfor %}
 if (window.location == "http://localhost:4000/" || window.location == "http://localhost:4000/index" || window.location == "http://localhost:4000/index.html") {
 	window.location.replace("http://localhost:4000/home");
 }
