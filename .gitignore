@@ -11,3 +11,4 @@ notes/
 .jekyll-metadata
 .ruby-version
 vendor/
+_data/jcm.yml

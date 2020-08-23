@@ -31,7 +31,8 @@
   #  alt-en: "Lightboard: Justice climatique pour tous!"
   #  alt-fr: "Affiche: Justice climatique pour tous!"
 - trans: index
-  img: Justice-climatique-pour-tous
+  #  img: Justice-climatique-pour-tous
+  img: lightboard2
   alt-en: "Lightboard: Justice climatique pour tous!"
   alt-fr: "Affiche: Justice climatique pour tous!"
 - trans: about
