@@ -45,7 +45,7 @@ fr:
 - title: Campagnes
   icon: <i class="fas fa-arrow-circle-right fa-fw"></i>
   submenu:
-    - subtitle: Suivre $$$
+    - subtitle: Suivre l'argent
       sublink: /campagnes/suivre-largent
     - subtitle: Relance verte
       sublink: /campagnes/relance-verte
