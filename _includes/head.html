@@ -22,15 +22,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#01579B">
   <html lang="{{ page.lang | default: 'en' }}">
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/fa-custom.css">
+  <link rel="stylesheet" href="/assets/css/fa-custom.css">
   {% comment %}If you want to add FontAwesome 5 icons, comment out the line above by putting it between symbols <!-- --> like this "<!-- <link rel="stylesheet" href="/assets/css/fa-custom.css"> --> and uncomment the line the line below by removing those same symbols (<!-- and -->){% endcomment %}
-  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/css/all.css"> -->
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/style.css">
-  {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="{{ site_link }}/assets/css/grid.css">{% endif %}
-  <link rel="stylesheet" href="{{ site_link }}/assets/css/navstyle.css">
-  <link rel="preload" href="{{ site_link }}/assets/js/navigation.js" as="js" crossorigin>
-  <link rel="icon" type="image/png" href="{{ site_link }}/assets/images/favicon.png" sizes="32x32">
-  <link rel="apple-touch-icon" href="{{ site_link }}/assets/images/favicon.png">
+  <!-- <link rel="stylesheet" href="/assets/css/all.css"> -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {% if page.trans == "new_attender" or page.trans == "glossary_fren" or page.trans == "glossary_enfr" or page.trans == "index-choose" or page.type == "system_grid" %}<link rel="stylesheet" href="/assets/css/grid.css">{% endif %}
+  <link rel="stylesheet" href="/assets/css/navstyle.css">
+  <link rel="preload" href="/assets/js/navigation.js" as="js" crossorigin>
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/images/favicon.png">
   <link rel="manifest" href="/manifest{% if fr %}-fr{% endif %}.webmanifest">
   {% comment %}{% if page.trans == "index" %}<link rel="dns-prefetch" href="https://youtube.com">{% endif %}
   {% if page.trans == "calendar" %}<link rel="dns-prefetch" href="https://calendar.google.com">{% endif %}{% endcomment %}
@@ -38,7 +38,7 @@
   <title>{% if fr %}{{ site.title-fr }}{% else %}{{ site.title }}{% endif %}</title>
   <! -- search header -->
   {% if page.tipue_search_active or layout.tipue_search_active %}
-  <!-- <link rel="stylesheet" href="{{ site_link }}/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
+  <!-- <link rel="stylesheet" href="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/css/normalize.css"> jquery3.1.1-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="/assets/tipuesearch/tipuesearch-{% if fr %}fr{% else %}en{% endif %}/tipuesearch_content.js"></script>
     <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">

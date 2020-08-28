@@ -70,7 +70,7 @@ a.sm-link:not(:first-child) {
     }
     &:hover {
       background-color: $color-1-dark;
-      color: white;
+      color: black;
     }
   }
   .icon {
@@ -264,6 +264,7 @@ a.sm-link:not(:first-child) {
        background: $color-1-dark;
        a:hover {
          background: $color-1;
+         color: black;
        }
    }
   

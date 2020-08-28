@@ -1,5 +1,5 @@
 current directory: /home/david/jekyll/cjm/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200823-40008-1cwvcma.rb extconf.rb
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200828-18411-kgdm7q.rb extconf.rb
 creating Makefile
 
 current directory: /home/david/jekyll/cjm/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -13,4 +13,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/david/jekyll/cjm/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200823-40008-1pe3qwv
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200828-18411-1w4vpac
