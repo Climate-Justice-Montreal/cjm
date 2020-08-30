@@ -10,8 +10,19 @@
 </head>
 <body>
 	{% for each in site.data.jcm.live %}
-	{% comment %}<p>If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a></p>{% endcomment %}
+
+  <noscript>
+	<p id=en>If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a></p>
+        <br><br><br>
+        <p id=fr>Si votre navigateur ne vous redirige pas, <a id="fr-link" href="{{ each.fr }}/accueil">suivez ce lien vers l'accueil</a></p>
+  </noscript>
+
+  <p id=en></p>
+        <br><br><br>
+  <p id=fr></p>
+
 </body>
+
 <script>
 if (window.location == "{{ each.en }}/" || window.location == "{{ each.en }}/index" || window.location == "{{ each.en }}/index.html") {
 	window.location.replace("{{ each.en }}/home");
@@ -25,7 +36,13 @@ if (window.location == "{{ each.live-en }}/" || window.location == "{{ each.live
 if (window.location == "{{ each.live-fr }}/" || window.location == "{{ each.live-fr }}/index" || window.location == "{{ each.live-fr }}/index.html") {
 	window.location.replace("{{ each.live-fr }}/accueil");
 }
+setTimeout(() => {
+document.getElementById("en").innerHTML = 'If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>';
+
+document.getElementById("fr").innerHTML = 'Si votre navigateur ne vous redirige pas, <a id="fr-link" href="{{ each.fr }}/accueil">suivez ce lien vers l\'accueil</a>';
+}, 2000);
     {% break %}{% endfor %}
+
 if (window.location == "http://localhost:4000/" || window.location == "http://localhost:4000/index" || window.location == "http://localhost:4000/index.html") {
 	window.location.replace("http://localhost:4000/home");
 }
