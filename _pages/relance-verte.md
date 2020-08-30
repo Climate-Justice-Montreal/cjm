@@ -8,4 +8,4 @@ Les processus de planification et d'élaboration de politique échouent souvent 
 
 Nous réunissons des citoyens œuvrant pour le changement.
 
-Pour en savoir plus: https://tinyurl.com/yc3h3rv3
+[Pour en savoir plus](https://tinyurl.com/yc3h3rv3){: rel="noopener" target="_blank"}

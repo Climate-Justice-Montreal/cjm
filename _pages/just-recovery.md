@@ -8,4 +8,4 @@ Policy and planning processes often fail to engage community expertise adequatel
 
 We are bringing together citizens working for change.
 
-Learn more: https://tinyurl.com/yc3h3rv3
+[Learn more](https://tinyurl.com/yc3h3rv3){: rel="noopener" target="_blank"}

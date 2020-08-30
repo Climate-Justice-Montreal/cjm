@@ -2,7 +2,7 @@
   <header>
     {% for each in site.data.hero-images %}
       {% if page.trans == each.trans %}
-{% assign hero-img = site_link | append: "/assets/images/" | append: each.img %}{% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
+{% assign hero-img = "/assets/images/" | append: each.img %}{% if fr %}{% assign alt = each.alt-fr %}{% else %}{% assign alt = each.alt-en %}{% endif %}
 
 <div class="base-wrapper narrow-p" style="background-image:url('{{ hero-img }}450.jpg');">
   <div class="parallax-container">
