@@ -26,7 +26,8 @@ layout: default
 
 {{ content }}
 
-<p>Tags: {% for each in page.tags %}{{ each }} {% endfor %}
+{% assign pagetags = "g" %}{% assign pagetags = pagetags | append: page.tags | append: "o" %}
+{% unless pagetags == "g[]o" %}<p>Tags: {% for each in page.tags %}{{ each }} {% endfor %}{% endunless %}
 <hr>
 {% comment %}
   Previous / Next functions
