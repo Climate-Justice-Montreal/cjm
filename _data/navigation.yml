@@ -112,11 +112,12 @@ social-media:
   link: https://www.instagram.com/justiceclimatiquemtl/
   color: C13584
   # or 
-  # color: E1306C
-- name: twitter
-  icon: <i class="fab fa-twitter"></i>
-  link: https://twitter.com/cj_montreal
-  color: 00acee
+  # color: E1306C # Alternate instagram colour
+# If you start using twitter again just delete the # below
+# - name: twitter
+#   icon: <i class="fab fa-twitter"></i>
+#   link: https://twitter.com/cj_montreal
+#   color: 00acee
 - name: facebook
   icon: <i class="fab fa-facebook-f"></i>
   link: https://facebook.com/ClimateJusticeMontreal
