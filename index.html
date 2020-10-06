@@ -33,8 +33,14 @@ if (window.location == "{{ each.fr }}/" || window.location == "{{ each.fr }}/ind
 if (window.location == "{{ each.live-en }}/" || window.location == "{{ each.live-en }}/index" || window.location == "{{ each.live-en }}/index.html") {
 	window.location.replace("{{ each.live-en }}/home");
 }
+if (window.location == "www.{{ each.live-en }}/" || window.location == "www.{{ each.live-en }}/index" || window.location == "www.{{ each.live-en }}/index.html") {
+	window.location.replace("www.{{ each.live-en }}/home");
+}
 if (window.location == "{{ each.live-fr }}/" || window.location == "{{ each.live-fr }}/index" || window.location == "{{ each.live-fr }}/index.html") {
 	window.location.replace("{{ each.live-fr }}/accueil");
+}
+if (window.location == "www.{{ each.live-fr }}/" || window.location == "www.{{ each.live-fr }}/index" || window.location == "www.{{ each.live-fr }}/index.html") {
+	window.location.replace("www.{{ each.live-fr }}/accueil");
 }
 setTimeout(() => {
 document.getElementById("en").innerHTML = 'If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>';
