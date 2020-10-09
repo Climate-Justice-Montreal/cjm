@@ -33,10 +33,10 @@
 </body>
 
 <script>
-if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.en-base }}{{ suf.suf }}" {% endfor %}{% endfor %} {
+if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.en-base }}{{ suf.suf }}" {% endfor %}{% endfor %}) {
 	window.location.replace("{{ each.en }}/home");
 }
-if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.fr-base }}{{ suf.suf }}" {% endfor %}{% endfor %} {
+if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.fr-base }}{{ suf.suf }}" {% endfor %}{% endfor %}) {
 	window.location.replace("{{ each.fr }}/accueil");
 }
 
