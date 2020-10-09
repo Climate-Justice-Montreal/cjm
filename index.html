@@ -33,15 +33,15 @@
 </body>
 
 <script>
-if (window.location.href.indexOf("{{ each.en-base }}")) {
+if (window.location.href.indexOf("{{ each.en-base }}") >= 0) {
 	window.location.replace("{{ each.en }}/home");
 }
-if (window.location.href.indexOf("{{ each.fr-base }}")) {
+if (window.location.href.indexOf("{{ each.fr-base }}") >= 0) {
 	window.location.replace("{{ each.fr }}/accueil");
 }
-// if (window.location.href.indexOf("{{ each.local-base }}")) {
-// 	window.location.replace("{{ each.local }}/home");
-// }
+if (window.location.href.indexOf("{{ each.local-base }}") >= 0) {
+	window.location.replace("{{ each.local }}/home");
+}
 
 setTimeout(() => {
 document.getElementById("en").innerHTML = 'If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>';
