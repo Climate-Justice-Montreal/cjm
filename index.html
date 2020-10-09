@@ -42,6 +42,13 @@ if (window.location == "{{ each.live-fr }}/" || window.location == "{{ each.live
 if (window.location == "www.{{ each.live-fr }}/" || window.location == "www.{{ each.live-fr }}/index" || window.location == "www.{{ each.live-fr }}/index.html") {
 	window.location.replace("www.{{ each.live-fr }}/accueil");
 }
+if (window.location == "{{ each.http-fr }}/" || window.location == "{{ each.http-fr }}/index" || window.location == "{{ each.http-fr }}/index.html") {
+	window.location.replace("{{ each.live-fr }}/accueil");
+}
+if (window.location == "www.{{ each.http-fr }}/" || window.location == "www.{{ each.http-fr }}/index" || window.location == "www.{{ each.http-fr }}/index.html") {
+	window.location.replace("www.{{ each.live-fr }}/accueil");
+}
+
 setTimeout(() => {
 document.getElementById("en").innerHTML = 'If you are not redirected automatically, <a href="{{ each.en }}/home">go to the home page</a>';
 
