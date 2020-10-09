@@ -33,11 +33,14 @@
 </body>
 
 <script>
-if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.en-base }}{{ suf.suf }}" {% endfor %}{% endfor %}) {
+if (window.location.href.indexOf("{{ each.en-base }}")) {
 	window.location.replace("{{ each.en }}/home");
 }
-if ({% for pre in site.data.jcm.prefix %}{% for suf in site.data.jcm.suffix %}{% unless forloop.first == true %} || {% endunless %}window.location == "{{ pre.pre }}{{ each.fr-base }}{{ suf.suf }}" {% endfor %}{% endfor %}) {
+if (window.location.href.indexOf("{{ each.fr-base }}")) {
 	window.location.replace("{{ each.fr }}/accueil");
+}
+if (window.location.href.indexOf("{{ each.local-base }}")) {
+	window.location.replace("{{ each.local }}/home");
 }
 
 setTimeout(() => {
@@ -46,10 +49,6 @@ document.getElementById("en").innerHTML = 'If you are not redirected automatical
 document.getElementById("fr").innerHTML = 'Si votre navigateur ne vous redirige pas, <a id="fr-link" href="{{ each.fr }}/accueil">suivez ce lien vers l\'accueil</a>';
 }, 2000);
     {% break %}{% endfor %}
-
-if (window.location == "http://localhost:4000/" || window.location == "http://localhost:4000/index" || window.location == "http://localhost:4000/index.html") {
-	window.location.replace("http://localhost:4000/home");
-}
 
 </script>
 </html>
