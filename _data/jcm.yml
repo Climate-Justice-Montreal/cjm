@@ -1,9 +1,15 @@
 live:
-- source: https://climatejusticemontreal.ca
-  other: https://justiceclimatiquemontreal.ca
-  en: https://climatejusticemontreal.ca
+- en: https://climatejusticemontreal.ca
   fr: https://justiceclimatiquemontreal.ca
-  live-en: https://climatejusticemontreal.ca
-  live-fr: https://justiceclimatiquemontreal.ca
-  http-en: http://climatejusticemontreal.ca
-  http-fr: http://justiceclimatiquemontreal.ca
+  en-base: climatejusticemontreal.ca
+  fr-base: justiceclimatiquemontreal.ca
+prefix:
+- pre: http://www.
+- pre: https://www.
+- pre: https://
+- pre: http://
+suffix: 
+- suf: "/"
+- suf: "/index"
+- suf: "/index.html"
+- suf: ""
