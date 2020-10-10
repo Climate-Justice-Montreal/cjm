@@ -1,6 +1,6 @@
 live:
-- en: https://www.climatejusticemontreal.ca
-  fr: https://www.justiceclimatiquemontreal.ca
+- en: https://climatejusticemontreal.ca
+  fr: https://justiceclimatiquemontreal.ca
   local: http://localhost:4000
   en-base: climatejusticemontreal.ca
   fr-base: justiceclimatiquemontreal.ca
