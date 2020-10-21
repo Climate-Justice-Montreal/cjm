@@ -12,5 +12,5 @@ Vous pouvez également vous inscrire pour [participer à nos réunions bi-hebdom
 Pour toute question ou pour vous impliquer, vous pouvez également [nous envoyer un courriel](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
 Merci !
 
-## Donner
+## Donner <span class="stanchor"><a name="donate"></a></span>
 Justice Climatique Montréal compte sur vos dons pour poursuivre son travail. Pour faire un don, veuillez faire un virement Interac [par courriel](mailto:justiceclimatiquemtl@gmail.com) puis envoyer le mot de passe que vous avez choisi.
