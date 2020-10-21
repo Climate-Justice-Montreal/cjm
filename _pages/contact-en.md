@@ -16,4 +16,4 @@ You can also [sign up to get involved](https://docs.google.com/forms/d/e/1FAIpQL
 For any questions, or to get involved, you can also [email us](mailto:justiceclimatiquemtl@gmail.com){: rel="noopener" target="_blank"}.
 
 ## Donate <span class="stanchor"><a name="donate"></a></span>
-Climate Justice Montreal relies on donations to continue the work we do. In order to donate to Climate Justice Montreal, please send an [email money transfer](mailto:justiceclimatiquemtl@gmail.com) (you can use “reconcile” (without quotes) as the password or email us the password you chose).
+Climate Justice Montreal relies on donations to continue the work we do. In order to donate to Climate Justice Montreal, please send an email money transfer to [justiceclimatiquemtl@gmail.com](mailto:justiceclimatiquemtl@gmail.com) (you can use “reconcile” without quotes as the password or [email us](mailto:justiceclimatiquemtl@gmail.com) what you chose).

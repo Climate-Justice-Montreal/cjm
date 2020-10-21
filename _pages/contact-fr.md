@@ -13,4 +13,4 @@ Pour toute question ou pour vous impliquer, vous pouvez également [nous envoyer
 Merci !
 
 ## Donner <span class="stanchor"><a name="donner"></a></span>
-Justice Climatique Montréal compte sur vos dons pour poursuivre son travail. Pour faire un don, veuillez faire un virement Interac [par courriel](mailto:justiceclimatiquemtl@gmail.com) puis envoyer le mot de passe que vous avez choisi.
+Justice Climatique Montréal compte sur vos dons pour poursuivre son travail. Pour faire un don, veuillez faire un virement Interac par courriel à [justiceclimatiquemtl@gmail.com](mailto:justiceclimatiquemtl@gmail.com) puis nous envoyer le mot de passe que vous avez choisi (par exemple, « réconciliation »).
