@@ -54,11 +54,11 @@
   {% endfor %}
   </div>
 </div>
+{% for item in site.data.slideshow.slideshow %}
+  {% if page.trans == item.trans %}
 <div>
   <h3>{% if fr %}Tous les matériels{% else %}All Materials{% endif %}</h3>
     <hr><br>
-{% for item in site.data.slideshow.slideshow %}
-  {% if page.trans == item.trans %}
   <div class="material-grid">
     {% for subitem in item.resources %}
   <div class="material-cell">
