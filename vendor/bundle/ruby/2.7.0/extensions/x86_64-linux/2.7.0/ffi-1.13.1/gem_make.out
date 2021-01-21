@@ -1,5 +1,5 @@
 current directory: /home/david/jekyll/cjm/vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1/ext/ffi_c
-/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200828-18411-1xyuwiq.rb extconf.rb
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20201128-8383-11vccv0.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -39,4 +39,4 @@ linking shared-object ffi_c.so
 
 current directory: /home/david/jekyll/cjm/vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20200828-18411-1gzdg7k
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20201128-8383-zm6k4d
