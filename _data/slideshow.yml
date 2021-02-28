@@ -100,3 +100,9 @@ files:
   type: pdf
   gkey: 1NpRnsNVxRlbb_gRlmVX8xghemHrCz26p
   px300: /assets/PDF/Web/tb_report_final300
+- filename: seedzine
+  path: /assets/PDF/
+  name: "Seedzine: Hope Tomorrow, Today"
+  type: pdf
+  gkey: 1rvoAxydP-c0JrhM7JSMnoDPel-_TnNla
+  px300: /assets/PDF/Web/tb_report_final300
