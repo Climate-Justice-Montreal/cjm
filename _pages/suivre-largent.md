@@ -14,4 +14,4 @@ Le comportement de Mme. Bertrand est inacceptable, surtout puisque:
 
 Le problème n’est pas seulement les dizaines de millions de dollars que McGill investit dans l’industrie, c’est aussi le principe: ces investissements menacent l’avenir de tout le monde, y compris celui des étudiantes et étudiants de McGill et de leurs familles.
 
-Puisque cette épicerie est particulièrement dépendante de McGill, nous encourageons les résidents du quartier ainsi que personnes qui étudient et travaillent à McGill à boycotter cette épicerie, et d’informer le magasin de leur résolution en appelant au 514 843-3530.
+Puisque cette épicerie est particulièrement dépendante de McGill, nous encourageons les résidents du quartier ainsi que personnes qui étudient et travaillent à McGill à boycotter cette épicerie, et d’informer le magasin de leur résolution en appelant au (866) 595-5554.

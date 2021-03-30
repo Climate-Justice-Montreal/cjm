@@ -14,4 +14,4 @@ This is unacceptable considering:
 
 This isn’t just about the dozens of millions of dollars that McGill invests in these companies, but also a matter of principle. These investments threaten everyone’s future, including that of McGill students and their families.
 
-Because that Metro grocery store is particularly McGill-dependent, we call upon locals and McGill students and staff to boycott Metro, and let store management know by calling (514) 843-3530.
+Because that Metro grocery store is particularly McGill-dependent, we call upon locals and McGill students and staff to boycott Metro, and let store management know by calling (866) 595-5554.
