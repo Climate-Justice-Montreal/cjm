@@ -1,5 +1,5 @@
 ---
-redirect:   /contact
+redirect:   /contact-en
 layout:     redirect
-permalink: /contact-en
+permalink: /contact
 ---
